@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PathFollower : MonoBehaviour {
+public class PathFollowerScript : MonoBehaviour {
 	
 	Node [] PathNode;
 	public GameObject [] Target;
