@@ -10,7 +10,14 @@
 	}
 	SubShader
 	{
-		Tags { "RenderType"="Opaque" }
+		Tags
+        {
+            "Queue"="Transparent"
+            "IgnoreProjector"="True"
+            "RenderType"="Transparent"
+            "PreviewType"="Plane"
+            "CanUseSpriteAtlas"="True"
+        }
 		LOD 100
 
 		Pass
@@ -18,8 +25,6 @@
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			// make fog work
-			#pragma multi_compile_fog
 			
 			#include "UnityCG.cginc"
 

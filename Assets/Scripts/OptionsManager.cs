@@ -8,9 +8,10 @@ public class OptionsManager : MonoBehaviour {
 
 	public void SetGameDifficulty(int level) {
 		levelDifficulty = level;
+		EnableDifficultyPanel ();
 	}
 
-	void OnEnable() {
+	public void EnableDifficultyPanel() {
 		GameObject levelButton = null;
 		switch(levelDifficulty) {
 		case 1:
@@ -24,6 +25,6 @@ public class OptionsManager : MonoBehaviour {
 		}
 		
 		GameObject eventSystem = GameObject.Find ("EventSystem");
-		eventSystem.GetComponent<UnityEngine.EventSystems.EventSystem> ().SetSelectedGameObject (levelButton);
+		eventSystem.GetComponent<UnityEngine.EventSystems.EventSystem> ().SetSelectedGameObject(levelButton);
 	}
 }

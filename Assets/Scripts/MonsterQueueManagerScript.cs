@@ -6,12 +6,14 @@ using System.Linq;
 public class MonsterQueueManagerScript : MonoBehaviour {
 
 	private List<string> monstersList;
-	private GameObject prefab;
+	private GameObject shadowPrefab;
+	private GameObject realPrefab;
 	private GameObject currentMonster;
 
 	// Use this for initialization
 	void Start () {
-		prefab = (GameObject)Resources.Load ("Prefabs/MonsterPrefab", typeof(GameObject));
+		shadowPrefab = (GameObject)Resources.Load ("Prefabs/ShadowMonsterPrefab", typeof(GameObject));
+		realPrefab = (GameObject)Resources.Load ("Prefabs/RealMonsterPrefab", typeof(GameObject));
 
 		monstersList = new List<string> ();
 		LoadMonsters ();
@@ -48,8 +50,10 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 			monstersList.RemoveAt (0);
 
 			if (nextMonster == "Mario") {
-				currentMonster = Instantiate (prefab, new Vector3 (-4.5f, 0, -1), Quaternion.identity);
-				currentMonster.GetComponent<MonsterScript> ().queued = false;
+				currentMonster = Instantiate (shadowPrefab, new Vector3 (-4.5f, 0, -1), Quaternion.identity);
+				currentMonster.GetComponent<ShadowMonsterScript> ().queued = false;
+				currentMonster = Instantiate (realPrefab, new Vector3 (-4.5f, 0, -1), Quaternion.identity);
+				currentMonster.GetComponent<RealMonsterScript> ().queued = false;
 			}
 		}
 	}

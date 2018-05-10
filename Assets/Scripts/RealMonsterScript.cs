@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterScript : MonoBehaviour {
+public class RealMonsterScript : MonoBehaviour {
 
-	public Material _mat;
+	//public Material _mat;
 
 	public bool queued = false;
 
@@ -18,11 +18,11 @@ public class MonsterScript : MonoBehaviour {
 	void Start () {
 		queueManager = GameObject.Find ("MonsterQueueManager").GetComponent<MonsterQueueManagerScript>();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (!queued) {
-		
+
 			if (Input.GetKeyDown ("space"))
 				uncovered = true;
 
@@ -32,7 +32,11 @@ public class MonsterScript : MonoBehaviour {
 				blendingValue += blendSpeed * Time.deltaTime;
 			}
 
-			_mat.SetFloat ("_LerpValue", blendingValue);
+			//_mat.SetFloat ("_LerpValue", blendingValue);
+
+			Color tmp = this.GetComponent<SpriteRenderer>().color;
+			tmp.a = blendingValue;
+			this.GetComponent<SpriteRenderer>().color = tmp;
 		}
 	}
 
