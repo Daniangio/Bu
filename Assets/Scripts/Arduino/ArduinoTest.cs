@@ -13,7 +13,9 @@ public class ArduinoTest : MonoBehaviour {
 
 		am = new ArduinoManager ("COM7");
 		ok = true;
-		
+
+		am.StartProgressBar (10);
+
 	}
 	
 	// Update is called once per frame
@@ -25,12 +27,29 @@ public class ArduinoTest : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown ("space")) {
-			WriteOnArduino ("abc");
+			am.ShowEffect (2, 1, 10000);
 		}
 	}
 
 	public void WriteOnArduino(string command) {
 		am.WriteOnArduino (command);
 	}
+
+	void OnDestroy ()
+	{
+		if (am != null) {
+			am.SwitchOff ();
+			am.Destroy ();
+		}
+	}
+
+	void OnApplicationQuit ()
+	{
+		if (am != null) {
+			am.SwitchOff ();
+			am.Destroy ();
+		}
+	}
+
 }
 

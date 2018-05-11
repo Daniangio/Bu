@@ -12,11 +12,11 @@ public class ShadowMonsterScript : MonoBehaviour {
 	private float blendingValue = 1f;
 	private float blendSpeed = 0.25f;
 
-	private MonsterQueueManagerScript queueManager;
+	//private MonsterQueueManagerScript queueManager;
 
 	// Use this for initialization
 	void Start () {
-		queueManager = GameObject.Find ("MonsterQueueManager").GetComponent<MonsterQueueManagerScript>();
+		//queueManager = GameObject.Find ("MonsterQueueManager").GetComponent<MonsterQueueManagerScript>();
 	}
 	
 	// Update is called once per frame

@@ -38,7 +38,12 @@ namespace Arduino
 			string response = "";
 			string newResponse = _sender.ReadFromArduino ();
 			while (newResponse != null) {
-				newResponse = ((char)int.Parse (newResponse)).ToString();
+				try {
+					newResponse = ((char)int.Parse (newResponse)).ToString();
+				}
+				catch (Exception e) {
+					newResponse = newResponse.ToString ();
+				}
 				response = response + newResponse;
 				newResponse = _sender.ReadFromArduino ();
 			}
