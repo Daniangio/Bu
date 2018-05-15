@@ -23,9 +23,6 @@ public class RealMonsterScript : MonoBehaviour {
 	void Update () {
 		if (!queued) {
 
-			if (Input.GetKeyDown ("space"))
-				uncovered = true;
-
 			if (uncovered && blendingValue >= 1f) {
 				StartCoroutine(StartGreetingAnimation());
 			} else if (uncovered && blendingValue < 1f) {
@@ -38,6 +35,10 @@ public class RealMonsterScript : MonoBehaviour {
 			tmp.a = blendingValue;
 			this.GetComponent<SpriteRenderer>().color = tmp;
 		}
+	}
+
+	public void Uncover() {
+		uncovered = true;
 	}
 
 	IEnumerator StartGreetingAnimation() {

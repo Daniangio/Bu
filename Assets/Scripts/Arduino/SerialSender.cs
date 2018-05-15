@@ -18,7 +18,7 @@ namespace Arduino
 
 		private bool _looping = true;
 
-		public void StartThread(string portName, int baudRate = 9600)
+		public void StartThread(string portName, int baudRate = 115200)
 		{
 			_portName = portName;
 			_baudRate = baudRate;
@@ -86,7 +86,9 @@ namespace Arduino
 		{
 			_stream = new SerialPort (_portName, _baudRate);
 			_stream.ReadTimeout = 50;
-			_stream.Open();
+			try {_stream.Open ();}catch (Exception e){
+				Debug.Log (e.ToString());
+			}
 			while (IsLooping())
 			{
 				if (_outputQueue.Count != 0)

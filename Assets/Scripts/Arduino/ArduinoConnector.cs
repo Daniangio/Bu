@@ -8,7 +8,7 @@ namespace Arduino
 	public class ArduinoConnector 
 	{
 		private string _portName;
-		private int _baudRate = 9600;
+		private int _baudRate = 115200;
 		private SerialSender _sender;
 
 		public ArduinoConnector (string portName)
@@ -41,7 +41,7 @@ namespace Arduino
 				try {
 					newResponse = ((char)int.Parse (newResponse)).ToString();
 				}
-				catch (Exception e) {
+				catch (Exception) {
 					newResponse = newResponse.ToString ();
 				}
 				response = response + newResponse;
@@ -74,47 +74,62 @@ namespace Arduino
 		/// Request to light a given number of leds for a given player.
 		/// </summary>
 		/// <param name="ledNumber">Led number.</param>
-		/// <param name="playerNumber">Player number (1 or 2)</param>
-		public void LightUpLed(int ledNumber, int playerNumber)
+		/// <param name="playerNumber">bar section (1 or 2)</param>
+		public void LightUpLed(int ledNumber, int barSection)
 		{
 			if (ledNumber < 0)
 				throw new ArgumentOutOfRangeException("ledNumber", "negative led count");
-			if (playerNumber != 1 && playerNumber != 2)
-				throw new ArgumentOutOfRangeException("playerNumber", "player does not exists");
+			if (barSection != 1 && barSection != 2)
+				throw new ArgumentOutOfRangeException("barSection", "wrong bar section");
 
 			string command = 4.ToString();
 			command += "," + ledNumber.ToString ();
-			command += "," + playerNumber.ToString ();
+			command += "," + barSection.ToString ();
+			_sender.SendToArduino (command);
+		}
+
+		public void SetIntensity(int intensity)
+		{
+			if (intensity < 1 || intensity > 4)
+				throw new ArgumentException("intensity", "not a valid intensity value");
+
+			string command = 5.ToString();
+			command += "," + intensity;
+			_sender.SendToArduino (command);
+		}
+
+		public void SetBrightness(int brightness)
+		{
+			if (brightness < 1 || brightness > 200)
+				throw new ArgumentException("brightness", "not a valid brightness value");
+
+			string command = 6.ToString();
+			command += "," + brightness;
 			_sender.SendToArduino (command);
 		}
 
 		/// <summary>
-		/// Sets the color of the player.
+		/// Sets the color of the bar.
 		/// </summary>
-		/// <param name="playerNumber">Player number.</param>
 		/// <param name="color">HEX string of the color.</param>
-		public void SetPlayerColor(int playerNumber, string color)
+		public void SetColor(string color)
 		{
-			if (playerNumber != 1 && playerNumber != 2)
-				throw new ArgumentOutOfRangeException("playerNumber", "player does not exists");
 			if (color.Length != 6)
 				throw new ArgumentException("color", "not a valid hex color");
 
-			string command = 5.ToString();
-			command += "," + playerNumber.ToString ();
+			string command = 7.ToString();
 			command += "," + color;
 			_sender.SendToArduino (command);
-
 		}
 
 		/// <summary>
-		/// Starts the progress bar to display teams score.
-		/// Uses default color if SetPlayerColor hasn't been called.
+		/// Starts the bar.
+		/// Uses default color.
 		/// </summary>
-		public void StartProgressBar()
+		public void StartBar()
 		{
 			_sender.ResetQueues ();
-			_sender.SendToArduino (6.ToString());
+			_sender.SendToArduino (8.ToString());
 		}
 
 		/// <summary>
@@ -125,7 +140,7 @@ namespace Arduino
 		/// <param name="duration">Duration.</param>
 		public void ShowEffect(int barPortion, int effect, int duration)
 		{
-			string command = 7.ToString();
+			string command = 9.ToString();
 			command += "," + barPortion.ToString ();
 			command += "," + effect.ToString ();
 			command += "," + duration.ToString ();
@@ -155,7 +170,7 @@ namespace Arduino
 		/// </summary>
 		public void SwitchOff()
 		{
-			_sender.SendToArduino (9.ToString());
+			_sender.SendToArduino (11.ToString());
 		}
 
 		public void CloseConnector()

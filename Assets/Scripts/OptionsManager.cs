@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class OptionsManager : MonoBehaviour {
 
-	public int levelDifficulty = 1;
-
 	public void SetGameDifficulty(int level) {
-		levelDifficulty = level;
+		Manager.difficultyLevel = level;
 		EnableDifficultyPanel ();
 	}
 
 	public void EnableDifficultyPanel() {
 		GameObject levelButton = null;
-		switch(levelDifficulty) {
+		switch(Manager.difficultyLevel) {
 		case 1:
 			levelButton = GameObject.Find ("EasyLevelButton");
 			break;

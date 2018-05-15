@@ -9,11 +9,13 @@ namespace Arduino
 		LedNumberRequest=2,
 		LedNumberResponse=3,
 		LightUpLed=4,
-		SetPlayerColor=5,
-		StartProgressBar=6,
-		ShowEffect=7,
-		GetStatus=8,
-		SwitchOff=9,
+		SetIntensity=5,
+		SetBrightness=6,
+		SetColor=7,
+		StartBar=8,
+		ShowEffect=9,
+		GetStatus=10,
+		SwitchOff=11,
 	};
 
 }

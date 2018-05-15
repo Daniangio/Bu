@@ -11,10 +11,10 @@ public class ArduinoTest : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		am = new ArduinoManager ("COM7");
+		am = new ArduinoManager ("COM26");
 		ok = true;
 
-		am.StartProgressBar (10);
+		am.StartBar();
 
 	}
 	

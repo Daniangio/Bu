@@ -10,6 +10,9 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 	private GameObject realPrefab;
 	private GameObject currentMonster;
 
+	private ShadowMonsterScript shadowMonster;
+	private RealMonsterScript realMonster;
+
 	// Use this for initialization
 	void Start () {
 		shadowPrefab = (GameObject)Resources.Load ("Prefabs/ShadowMonsterPrefab", typeof(GameObject));
@@ -44,18 +47,27 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 		if (monstersList.Count > 0) {
 			nextMonster = monstersList [0];
 
+			Manager.monsterName = nextMonster;
+
 			if (monstersList.Count > 1)
 				queueMonster = monstersList [1];
 		
 			monstersList.RemoveAt (0);
 
 			if (nextMonster == "Mario") {
-				currentMonster = Instantiate (shadowPrefab, new Vector3 (-4.5f, 0, -1), Quaternion.identity);
-				currentMonster.GetComponent<ShadowMonsterScript> ().queued = false;
-				currentMonster = Instantiate (realPrefab, new Vector3 (-4.5f, 0, -1), Quaternion.identity);
-				currentMonster.GetComponent<RealMonsterScript> ().queued = false;
+				currentMonster = Instantiate (shadowPrefab, new Vector3 (20f, -11f, -1), Quaternion.identity);
+				shadowMonster = currentMonster.GetComponent<ShadowMonsterScript> ();
+				shadowMonster.queued = false;
+				currentMonster = Instantiate (realPrefab, new Vector3 (20f, -11f, -1), Quaternion.identity);
+				realMonster = currentMonster.GetComponent<RealMonsterScript> ();
+				realMonster.queued = false;
 			}
 		}
+	}
+
+	public void ShowMonster() {
+		shadowMonster.Uncover ();
+		realMonster.Uncover ();
 	}
 
 }

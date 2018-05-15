@@ -22,9 +22,6 @@ public class ShadowMonsterScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!queued) {
-		
-			if (Input.GetKeyDown ("space"))
-				uncovered = true;
 
 			if (uncovered && blendingValue <= 0f) {
 				Destroy (this.gameObject);
@@ -38,6 +35,10 @@ public class ShadowMonsterScript : MonoBehaviour {
 			tmp.a = blendingValue;
 			this.GetComponent<SpriteRenderer>().color = tmp;
 		}
+	}
+
+	public void Uncover() {
+		uncovered = true;
 	}
 
 }
