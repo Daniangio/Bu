@@ -16,6 +16,9 @@ namespace Arduino
 		ShowEffect=9,
 		GetStatus=10,
 		SwitchOff=11,
+		X_angle=12,
+		Y_angle=13,
+		Z_angle=13
 	};
 
 }
