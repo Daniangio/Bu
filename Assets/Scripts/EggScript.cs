@@ -9,12 +9,12 @@ public class EggScript : MonoBehaviour {
 	public MonsterQueueManagerScript monsterQueueManager;
 
 	//TASK VARIABLES
-	string task = "BENDING";
+	string task = "BENDING HOR";
 	bool mustBendRight = true;
 
 	//Gyroscope variables
 	//float basex_angle, basey_angle, basez_angle, basex_acc, basey_acc, basez_acc;
-	bool calibrate = true;
+	//bool calibrate = true;
 
 	int arduinoBufferSize=5;
 	float[] x_angle, y_angle, z_angle, x_acc, y_acc, z_acc;
@@ -36,7 +36,7 @@ public class EggScript : MonoBehaviour {
 	int MAX_BRIGHTNESS = 200;
 
 	int intensity = 1;
-	int brightness = 20;
+	int brightness = 50;
 	string color = "ffffff";
 
 	void Start () {
@@ -89,7 +89,7 @@ public class EggScript : MonoBehaviour {
 					//Debug.Log ("X: "+x_angle[arduinoCounter]+"\tY: "+y_angle[arduinoCounter]+"\tZ: "+z_angle[arduinoCounter]+"\txAcc: "+x_acc[arduinoCounter]+"\tyAcc: "+y_acc[arduinoCounter]+"\tzAcc: "+z_acc[arduinoCounter]);
 					break;
 				default:
-					Debug.Log (response);
+					//Debug.Log (response);
 					break;
 				}
 			}
@@ -110,7 +110,7 @@ public class EggScript : MonoBehaviour {
 
 	private void CheckActionTaken() {
 		
-		//CHECK RIGHT BENDING (X INCREASES)
+		//CHECK RIGHT BENDING (X ANGLE INCREASES)
 		float angleSensitivity = 1.0f;
 		bool incrementing = true;
 		for (int i = 1; i < arduinoBufferSize; i++) {
@@ -122,7 +122,7 @@ public class EggScript : MonoBehaviour {
 		if (incrementing)
 			BendRight ();
 
-		//CHECK LEFT BENDING (X DECREASES)
+		//CHECK LEFT BENDING (X ANGLE DECREASES)
 		angleSensitivity = 1.0f;
 		bool decrementing = true;
 		for (int i = 1; i < arduinoBufferSize; i++) {
@@ -133,6 +133,71 @@ public class EggScript : MonoBehaviour {
 		}
 		if (decrementing)
 			BendLeft ();
+
+		//CHECK DOWN BENDING (Y ANGLE INCREASES)
+		angleSensitivity = 1.0f;
+		incrementing = true;
+		for (int i = 1; i < arduinoBufferSize; i++) {
+			if (y_angle [i] < y_angle [i - 1] + angleSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			BendDown ();
+
+		//CHECK UP BENDING (Y ANGLE DECREASES)
+		angleSensitivity = 1.0f;
+		decrementing = true;
+		for (int i = 1; i < arduinoBufferSize; i++) {
+			if (y_angle [i] > y_angle [i - 1] - angleSensitivity) {
+				decrementing = false;
+				break;
+			}
+		}
+		if (decrementing)
+			BendUp ();
+
+		//CHECK COUNTERCLOCKWISE TURNING (Z ANGLE INCREASES)
+		angleSensitivity = 1.0f;
+		incrementing = true;
+		for (int i = 1; i < arduinoBufferSize; i++) {
+			if (z_angle [i] < z_angle [i - 1] + angleSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			TurnCounterClockWise ();
+
+		//CHECK CLOCKWISE TURNING (Z ANGLE DECREASES)
+		angleSensitivity = 1.0f;
+		decrementing = true;
+		for (int i = 1; i < arduinoBufferSize; i++) {
+			if (z_angle [i] > z_angle [i - 1] - angleSensitivity) {
+				decrementing = false;
+				break;
+			}
+		}
+		if (decrementing)
+			TurnClockWise ();
+
+		//CHECK SHAKING
+		float x_sensitivity = 0.1f,  y_sensitivity = 0.01f,  z_sensitivity = 0.06f;
+		int positive_x=0, positive_y=0, positive_z=0;
+		for (int i = 0; i < arduinoBufferSize; i++) {
+			if (x_acc[i] > x_sensitivity)
+				positive_x += 1;
+			if (y_acc[i] > y_sensitivity)
+				positive_y += 1;
+			if (z_acc[i] - 0.95f > z_sensitivity)
+				positive_z += 1;
+		}
+		//Debug.Log (positive_x + "    " + positive_y + "    " + positive_z);
+		if (positive_x > 1 && positive_x < 5 &&
+		    positive_y > 1 && positive_y < 5 &&
+		    positive_z > 1 && positive_z < 5)
+			Shake ();
 	}
 
 	private void UpdateEggLight() {
@@ -152,7 +217,7 @@ public class EggScript : MonoBehaviour {
 
 	private void BendRight() {
 		Debug.Log ("BEND RIGHT");
-		if (task == "BENDING" && mustBendRight) {
+		if (task == "BENDING HOR" && mustBendRight) {
 			mustBendRight = false;
 			FillCompletionBar ();
 		}
@@ -160,10 +225,30 @@ public class EggScript : MonoBehaviour {
 
 	private void BendLeft() {
 		Debug.Log ("BEND LEFT");
-		if (task == "BENDING" && !mustBendRight) {
+		if (task == "BENDING HOR" && !mustBendRight) {
 			mustBendRight = true;
 			FillCompletionBar ();
 		}
+	}
+
+	private void BendUp() {
+		Debug.Log ("BEND UP");
+	}
+
+	private void BendDown() {
+		Debug.Log ("BEND DOWN");
+	}
+
+	private void TurnCounterClockWise() {
+		Debug.Log ("TURN COUNTERCLOCKWISE");
+	}
+
+	private void TurnClockWise() {
+		Debug.Log ("TURN CLOCKWISE");
+	}
+
+	private void Shake() {
+		Debug.Log ("SHAKE");
 	}
 
 	private void FillCompletionBar () {
@@ -172,7 +257,7 @@ public class EggScript : MonoBehaviour {
 			if (intensity < MAX_INTENSITY)
 				intensity += 1;
 			if (brightness < MAX_BRIGHTNESS) {
-				brightness += 45;
+				brightness += 50;
 				LightUpLedBar ();
 			}
 			else
@@ -186,7 +271,7 @@ public class EggScript : MonoBehaviour {
 	private void ShowMonster() {
 		monsterQueueManager.ShowMonster ();
 		intensity = 1;
-		brightness = 20;
+		brightness = 50;
 		color = "ffffff";
 		LightUpLedBar ();
 

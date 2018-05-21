@@ -1,24 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OpenPanelOnClick : MonoBehaviour {
 
-	bool panelOpen = false;
-	public GameObject defaultPanel;
+	public GameObject[] openThesePanels;
+	public GameObject[] closeThesePanels;
 	GameObject currentPanel;
 
-	public void OpenPanel() {
+	/*public void OpenPanel() {
 		currentPanel = GameObject.FindGameObjectWithTag ("OptionsPanel");
 		if (currentPanel == null)
 			currentPanel = defaultPanel;
 		
 		panelOpen = !panelOpen;
 		currentPanel.SetActive(panelOpen);
-	}
+	}*/
 
 	public void SwitchPanel() {
-		defaultPanel.SetActive(true);
+		for (int i=0; i<openThesePanels.Length; i++)
+			openThesePanels[i].SetActive(true);
+
+		for (int i = 0; i < closeThesePanels.Length; i++)
+			closeThesePanels [i].SetActive (false);
+		
 		this.transform.parent.gameObject.SetActive (false);
+	}
+
+	public void ChangeScene(string sceneName) {
+		SceneManager.LoadScene (sceneName);
 	}
 }
