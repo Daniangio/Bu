@@ -11,10 +11,8 @@ public class ArduinoTest : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		am = new ArduinoManager ("COM26");
+		am = new ArduinoManager ("\\\\.\\COM26");
 		ok = true;
-
-		am.StartBar();
 
 	}
 	
@@ -22,12 +20,26 @@ public class ArduinoTest : MonoBehaviour {
 	void Update () {
 		if (ok) {
 			string response = am.ReadFromArduino ();
-			if (response != null)
-				Debug.Log(response);
+			if (response != null) {
+				int type = int.Parse (response.Split ("," [0]) [0]);
+				Debug.Log (type);
+				switch(type) {
+				case (13):
+					int light = int.Parse (response.Split ("," [0]) [1]);
+					Debug.Log (light);
+					Manager.lightFlag = (light < 1000) ? true : false;
+					Debug.Log (Manager.lightFlag);
+					break;
+				default:
+					Debug.Log (response);
+					break;
+				}
+			}
 		}
 
-		if (Input.GetKeyDown ("space")) {
-			am.ShowEffect (2, 1, 10000);
+		if (Input.GetMouseButtonDown (0)) {
+			am.SetLightFlag (true);
+			Manager.lightFlag = true;
 		}
 	}
 

@@ -112,5 +112,9 @@ namespace Arduino
 		public void Destroy(){
 			_connector.CloseConnector();
 		}
+
+		public void SetLightFlag(bool flag) {
+			_connector.SetLightFlag (flag);
+		}
 	}
 }

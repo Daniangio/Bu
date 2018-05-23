@@ -1,0 +1,3717 @@
+fileFormatVersion: 2
+guid: 1d287a127fd1f02499459cdf7eea9b28
+timeCreated: 1527033129
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: uovo ribaltamento master_0
+    21300002: uovo ribaltamento master_1
+    21300004: uovo ribaltamento master_2
+    21300006: uovo ribaltamento master_3
+    21300008: uovo ribaltamento master_4
+    21300010: uovo ribaltamento master_5
+    21300012: uovo ribaltamento master_6
+    21300014: uovo ribaltamento master_7
+    21300016: uovo ribaltamento master_8
+    21300018: uovo ribaltamento master_9
+    21300020: uovo ribaltamento master_10
+    21300022: uovo ribaltamento master_11
+    21300024: uovo ribaltamento master_12
+    21300026: uovo ribaltamento master_13
+    21300028: uovo ribaltamento master_14
+    21300030: uovo ribaltamento master_15
+    21300032: uovo ribaltamento master_16
+    21300034: uovo ribaltamento master_17
+    21300036: uovo ribaltamento master_18
+    21300038: uovo ribaltamento master_19
+    21300040: uovo ribaltamento master_20
+    21300042: uovo ribaltamento master_21
+    21300044: uovo ribaltamento master_22
+    21300046: uovo ribaltamento master_23
+    21300048: uovo ribaltamento master_24
+    21300050: uovo ribaltamento master_25
+    21300052: uovo ribaltamento master_26
+    21300054: uovo ribaltamento master_27
+    21300056: uovo ribaltamento master_28
+    21300058: uovo ribaltamento master_29
+    21300060: uovo ribaltamento master_30
+    21300062: uovo ribaltamento master_31
+    21300064: uovo ribaltamento master_32
+    21300066: uovo ribaltamento master_33
+    21300068: uovo ribaltamento master_34
+    21300070: uovo ribaltamento master_35
+    21300072: uovo ribaltamento master_36
+    21300074: uovo ribaltamento master_37
+    21300076: uovo ribaltamento master_38
+    21300078: uovo ribaltamento master_39
+    21300080: uovo ribaltamento master_40
+    21300082: uovo ribaltamento master_41
+    21300084: uovo ribaltamento master_42
+    21300086: uovo ribaltamento master_43
+    21300088: uovo ribaltamento master_44
+    21300090: uovo ribaltamento master_45
+    21300092: uovo ribaltamento master_46
+    21300094: uovo ribaltamento master_47
+    21300096: uovo ribaltamento master_48
+    21300098: uovo ribaltamento master_49
+    21300100: uovo ribaltamento master_50
+    21300102: uovo ribaltamento master_51
+    21300104: uovo ribaltamento master_52
+    21300106: uovo ribaltamento master_53
+    21300108: uovo ribaltamento master_54
+    21300110: uovo ribaltamento master_55
+    21300112: uovo ribaltamento master_56
+    21300114: uovo ribaltamento master_57
+    21300116: uovo ribaltamento master_58
+    21300118: uovo ribaltamento master_59
+    21300120: uovo ribaltamento master_60
+    21300122: uovo ribaltamento master_61
+    21300124: uovo ribaltamento master_62
+    21300126: uovo ribaltamento master_63
+    21300128: uovo ribaltamento master_64
+    21300130: uovo ribaltamento master_65
+    21300132: uovo ribaltamento master_66
+    21300134: uovo ribaltamento master_67
+    21300136: uovo ribaltamento master_68
+    21300138: uovo ribaltamento master_69
+    21300140: uovo ribaltamento master_70
+    21300142: uovo ribaltamento master_71
+    21300144: uovo ribaltamento master_72
+    21300146: uovo ribaltamento master_73
+    21300148: uovo ribaltamento master_74
+    21300150: uovo ribaltamento master_75
+    21300152: uovo ribaltamento master_76
+    21300154: uovo ribaltamento master_77
+    21300156: uovo ribaltamento master_78
+    21300158: uovo ribaltamento master_79
+    21300160: uovo ribaltamento master_80
+    21300162: uovo ribaltamento master_81
+    21300164: uovo ribaltamento master_82
+    21300166: uovo ribaltamento master_83
+    21300168: uovo ribaltamento master_84
+    21300170: uovo ribaltamento master_85
+    21300172: uovo ribaltamento master_86
+    21300174: uovo ribaltamento master_87
+    21300176: uovo ribaltamento master_88
+    21300178: uovo ribaltamento master_89
+    21300180: uovo ribaltamento master_90
+    21300182: uovo ribaltamento master_91
+    21300184: uovo ribaltamento master_92
+    21300186: uovo ribaltamento master_93
+    21300188: uovo ribaltamento master_94
+    21300190: uovo ribaltamento master_95
+    21300192: uovo ribaltamento master_96
+    21300194: uovo ribaltamento master_97
+    21300196: uovo ribaltamento master_98
+    21300198: uovo ribaltamento master_99
+    21300200: uovo ribaltamento master_100
+    21300202: uovo ribaltamento master_101
+    21300204: uovo ribaltamento master_102
+    21300206: uovo ribaltamento master_103
+    21300208: uovo ribaltamento master_104
+    21300210: uovo ribaltamento master_105
+    21300212: uovo ribaltamento master_106
+    21300214: uovo ribaltamento master_107
+    21300216: uovo ribaltamento master_108
+    21300218: uovo ribaltamento master_109
+    21300220: uovo ribaltamento master_110
+    21300222: uovo ribaltamento master_111
+    21300224: uovo ribaltamento master_112
+    21300226: uovo ribaltamento master_113
+    21300228: uovo ribaltamento master_114
+    21300230: uovo ribaltamento master_115
+    21300232: uovo ribaltamento master_116
+    21300234: uovo ribaltamento master_117
+    21300236: uovo ribaltamento master_118
+    21300238: uovo ribaltamento master_119
+    21300240: uovo ribaltamento master_120
+    21300242: uovo ribaltamento master_121
+    21300244: uovo ribaltamento master_122
+    21300246: uovo ribaltamento master_123
+    21300248: uovo ribaltamento master_124
+    21300250: uovo ribaltamento master_125
+    21300252: uovo ribaltamento master_126
+    21300254: uovo ribaltamento master_127
+    21300256: uovo ribaltamento master_128
+    21300258: uovo ribaltamento master_129
+    21300260: uovo ribaltamento master_130
+    21300262: uovo ribaltamento master_131
+    21300264: uovo ribaltamento master_132
+    21300266: uovo ribaltamento master_133
+    21300268: uovo ribaltamento master_134
+    21300270: uovo ribaltamento master_135
+    21300272: uovo ribaltamento master_136
+    21300274: uovo ribaltamento master_137
+    21300276: uovo ribaltamento master_138
+    21300278: uovo ribaltamento master_139
+    21300280: uovo ribaltamento master_140
+    21300282: uovo ribaltamento master_141
+    21300284: uovo ribaltamento master_142
+    21300286: uovo ribaltamento master_143
+    21300288: uovo ribaltamento master_144
+    21300290: uovo ribaltamento master_145
+    21300292: uovo ribaltamento master_146
+    21300294: uovo ribaltamento master_147
+    21300296: uovo ribaltamento master_148
+    21300298: uovo ribaltamento master_149
+    21300300: uovo ribaltamento master_150
+    21300302: uovo ribaltamento master_151
+    21300304: uovo ribaltamento master_152
+    21300306: uovo ribaltamento master_153
+    21300308: uovo ribaltamento master_154
+    21300310: uovo ribaltamento master_155
+    21300312: uovo ribaltamento master_156
+    21300314: uovo ribaltamento master_157
+    21300316: uovo ribaltamento master_158
+    21300318: uovo ribaltamento master_159
+    21300320: uovo ribaltamento master_160
+    21300322: uovo ribaltamento master_161
+    21300324: uovo ribaltamento master_162
+    21300326: uovo ribaltamento master_163
+    21300328: uovo ribaltamento master_164
+    21300330: uovo ribaltamento master_165
+    21300332: uovo ribaltamento master_166
+    21300334: uovo ribaltamento master_167
+    21300336: uovo ribaltamento master_168
+    21300338: uovo ribaltamento master_169
+    21300340: uovo ribaltamento master_170
+    21300342: uovo ribaltamento master_171
+    21300344: uovo ribaltamento master_172
+    21300346: uovo ribaltamento master_173
+    21300348: uovo ribaltamento master_174
+    21300350: uovo ribaltamento master_175
+    21300352: uovo ribaltamento master_176
+    21300354: uovo ribaltamento master_177
+    21300356: uovo ribaltamento master_178
+    21300358: uovo ribaltamento master_179
+    21300360: uovo ribaltamento master_180
+    21300362: uovo ribaltamento master_181
+    21300364: uovo ribaltamento master_182
+    21300366: uovo ribaltamento master_183
+    21300368: uovo ribaltamento master_184
+    21300370: uovo ribaltamento master_185
+    21300372: uovo ribaltamento master_186
+    21300374: uovo ribaltamento master_187
+    21300376: uovo ribaltamento master_188
+    21300378: uovo ribaltamento master_189
+    21300380: uovo ribaltamento master_190
+    21300382: uovo ribaltamento master_191
+    21300384: uovo ribaltamento master_192
+    21300386: uovo ribaltamento master_193
+    21300388: uovo ribaltamento master_194
+    21300390: uovo ribaltamento master_195
+    21300392: uovo ribaltamento master_196
+    21300394: uovo ribaltamento master_197
+    21300396: uovo ribaltamento master_198
+    21300398: uovo ribaltamento master_199
+    21300400: uovo ribaltamento master_200
+    21300402: uovo ribaltamento master_201
+    21300404: uovo ribaltamento master_202
+    21300406: uovo ribaltamento master_203
+    21300408: uovo ribaltamento master_204
+    21300410: uovo ribaltamento master_205
+    21300412: uovo ribaltamento master_206
+    21300414: uovo ribaltamento master_207
+    21300416: uovo ribaltamento master_208
+    21300418: uovo ribaltamento master_209
+    21300420: uovo ribaltamento master_210
+    21300422: uovo ribaltamento master_211
+    21300424: uovo ribaltamento master_212
+    21300426: uovo ribaltamento master_213
+    21300428: uovo ribaltamento master_214
+    21300430: uovo ribaltamento master_215
+    21300432: uovo ribaltamento master_216
+    21300434: uovo ribaltamento master_217
+    21300436: uovo ribaltamento master_218
+    21300438: uovo ribaltamento master_219
+    21300440: uovo ribaltamento master_220
+    21300442: uovo ribaltamento master_221
+    21300444: uovo ribaltamento master_222
+    21300446: uovo ribaltamento master_223
+    21300448: uovo ribaltamento master_224
+    21300450: uovo ribaltamento master_225
+    21300452: uovo ribaltamento master_226
+    21300454: uovo ribaltamento master_227
+    21300456: uovo ribaltamento master_228
+    21300458: uovo ribaltamento master_229
+    21300460: uovo ribaltamento master_230
+    21300462: uovo ribaltamento master_231
+    21300464: uovo ribaltamento master_232
+    21300466: uovo ribaltamento master_233
+    21300468: uovo ribaltamento master_234
+    21300470: uovo ribaltamento master_235
+    21300472: uovo ribaltamento master_236
+    21300474: uovo ribaltamento master_237
+    21300476: uovo ribaltamento master_238
+    21300478: uovo ribaltamento master_239
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uovo ribaltamento master_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_10
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_11
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_12
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_13
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_14
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_17
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_19
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_21
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_22
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_23
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_24
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_25
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_26
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_27
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_28
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_29
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_31
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_32
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_33
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_34
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_35
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_36
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_37
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_38
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_39
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_40
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_41
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_42
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_43
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_44
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_47
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_48
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_49
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_50
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_51
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_52
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_53
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_54
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_55
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_56
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_57
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_58
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_59
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_61
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_62
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_63
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_64
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_65
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_66
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_67
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_68
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_69
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_70
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_71
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_72
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_73
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_74
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_76
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_77
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_78
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_79
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_81
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_82
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_83
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_84
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_85
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_86
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_87
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_88
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_89
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_91
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_92
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_93
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_94
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_95
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_96
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_97
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_98
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_99
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_100
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_101
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_102
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_103
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_104
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_106
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_107
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_108
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_109
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_110
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_111
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_112
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_113
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_114
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_115
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_116
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_117
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_118
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_119
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_121
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_122
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_123
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_124
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_125
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_126
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_127
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_128
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_129
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_130
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_131
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_132
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_133
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_134
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_136
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_137
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_138
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_139
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_140
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_141
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_142
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_143
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_144
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_145
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_146
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_147
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_148
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_149
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_151
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_152
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_153
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_154
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_155
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_156
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_157
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_158
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_159
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_160
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_161
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_162
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_163
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_164
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_166
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_167
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_168
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_169
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_170
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_171
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_172
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_173
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_174
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_175
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_176
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_177
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_178
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_179
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_181
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_182
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_183
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_184
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_185
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_186
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_187
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_188
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_189
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_190
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_191
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_192
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_193
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_194
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_196
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_197
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_198
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_199
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_200
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_201
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_202
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_203
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_204
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_205
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_206
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_207
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_208
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_209
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_211
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_212
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_213
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_214
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_215
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_216
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_217
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_218
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_219
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_220
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_221
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_222
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_223
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_224
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_225
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_226
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_227
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_228
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_229
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_230
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_231
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_232
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_233
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_234
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_235
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_236
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_237
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_238
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ribaltamento master_239
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

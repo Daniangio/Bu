@@ -42,7 +42,7 @@ public class RealMonsterScript : MonoBehaviour {
 	}
 
 	IEnumerator StartGreetingAnimation() {
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (1);
 		queueManager.NextMonster ();
 	}
 

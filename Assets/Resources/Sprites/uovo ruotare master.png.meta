@@ -1,0 +1,3702 @@
+fileFormatVersion: 2
+guid: e9570f6a3433cfd4d9495e9378b0d7aa
+timeCreated: 1527033141
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: uovo ruotare master_0
+    21300002: uovo ruotare master_1
+    21300004: uovo ruotare master_2
+    21300006: uovo ruotare master_3
+    21300008: uovo ruotare master_4
+    21300010: uovo ruotare master_5
+    21300012: uovo ruotare master_6
+    21300014: uovo ruotare master_7
+    21300016: uovo ruotare master_8
+    21300018: uovo ruotare master_9
+    21300020: uovo ruotare master_10
+    21300022: uovo ruotare master_11
+    21300024: uovo ruotare master_12
+    21300026: uovo ruotare master_13
+    21300028: uovo ruotare master_14
+    21300030: uovo ruotare master_15
+    21300032: uovo ruotare master_16
+    21300034: uovo ruotare master_17
+    21300036: uovo ruotare master_18
+    21300038: uovo ruotare master_19
+    21300040: uovo ruotare master_20
+    21300042: uovo ruotare master_21
+    21300044: uovo ruotare master_22
+    21300046: uovo ruotare master_23
+    21300048: uovo ruotare master_24
+    21300050: uovo ruotare master_25
+    21300052: uovo ruotare master_26
+    21300054: uovo ruotare master_27
+    21300056: uovo ruotare master_28
+    21300058: uovo ruotare master_29
+    21300060: uovo ruotare master_30
+    21300062: uovo ruotare master_31
+    21300064: uovo ruotare master_32
+    21300066: uovo ruotare master_33
+    21300068: uovo ruotare master_34
+    21300070: uovo ruotare master_35
+    21300072: uovo ruotare master_36
+    21300074: uovo ruotare master_37
+    21300076: uovo ruotare master_38
+    21300078: uovo ruotare master_39
+    21300080: uovo ruotare master_40
+    21300082: uovo ruotare master_41
+    21300084: uovo ruotare master_42
+    21300086: uovo ruotare master_43
+    21300088: uovo ruotare master_44
+    21300090: uovo ruotare master_45
+    21300092: uovo ruotare master_46
+    21300094: uovo ruotare master_47
+    21300096: uovo ruotare master_48
+    21300098: uovo ruotare master_49
+    21300100: uovo ruotare master_50
+    21300102: uovo ruotare master_51
+    21300104: uovo ruotare master_52
+    21300106: uovo ruotare master_53
+    21300108: uovo ruotare master_54
+    21300110: uovo ruotare master_55
+    21300112: uovo ruotare master_56
+    21300114: uovo ruotare master_57
+    21300116: uovo ruotare master_58
+    21300118: uovo ruotare master_59
+    21300120: uovo ruotare master_60
+    21300122: uovo ruotare master_61
+    21300124: uovo ruotare master_62
+    21300126: uovo ruotare master_63
+    21300128: uovo ruotare master_64
+    21300130: uovo ruotare master_65
+    21300132: uovo ruotare master_66
+    21300134: uovo ruotare master_67
+    21300136: uovo ruotare master_68
+    21300138: uovo ruotare master_69
+    21300140: uovo ruotare master_70
+    21300142: uovo ruotare master_71
+    21300144: uovo ruotare master_72
+    21300146: uovo ruotare master_73
+    21300148: uovo ruotare master_74
+    21300150: uovo ruotare master_75
+    21300152: uovo ruotare master_76
+    21300154: uovo ruotare master_77
+    21300156: uovo ruotare master_78
+    21300158: uovo ruotare master_79
+    21300160: uovo ruotare master_80
+    21300162: uovo ruotare master_81
+    21300164: uovo ruotare master_82
+    21300166: uovo ruotare master_83
+    21300168: uovo ruotare master_84
+    21300170: uovo ruotare master_85
+    21300172: uovo ruotare master_86
+    21300174: uovo ruotare master_87
+    21300176: uovo ruotare master_88
+    21300178: uovo ruotare master_89
+    21300180: uovo ruotare master_90
+    21300182: uovo ruotare master_91
+    21300184: uovo ruotare master_92
+    21300186: uovo ruotare master_93
+    21300188: uovo ruotare master_94
+    21300190: uovo ruotare master_95
+    21300192: uovo ruotare master_96
+    21300194: uovo ruotare master_97
+    21300196: uovo ruotare master_98
+    21300198: uovo ruotare master_99
+    21300200: uovo ruotare master_100
+    21300202: uovo ruotare master_101
+    21300204: uovo ruotare master_102
+    21300206: uovo ruotare master_103
+    21300208: uovo ruotare master_104
+    21300210: uovo ruotare master_105
+    21300212: uovo ruotare master_106
+    21300214: uovo ruotare master_107
+    21300216: uovo ruotare master_108
+    21300218: uovo ruotare master_109
+    21300220: uovo ruotare master_110
+    21300222: uovo ruotare master_111
+    21300224: uovo ruotare master_112
+    21300226: uovo ruotare master_113
+    21300228: uovo ruotare master_114
+    21300230: uovo ruotare master_115
+    21300232: uovo ruotare master_116
+    21300234: uovo ruotare master_117
+    21300236: uovo ruotare master_118
+    21300238: uovo ruotare master_119
+    21300240: uovo ruotare master_120
+    21300242: uovo ruotare master_121
+    21300244: uovo ruotare master_122
+    21300246: uovo ruotare master_123
+    21300248: uovo ruotare master_124
+    21300250: uovo ruotare master_125
+    21300252: uovo ruotare master_126
+    21300254: uovo ruotare master_127
+    21300256: uovo ruotare master_128
+    21300258: uovo ruotare master_129
+    21300260: uovo ruotare master_130
+    21300262: uovo ruotare master_131
+    21300264: uovo ruotare master_132
+    21300266: uovo ruotare master_133
+    21300268: uovo ruotare master_134
+    21300270: uovo ruotare master_135
+    21300272: uovo ruotare master_136
+    21300274: uovo ruotare master_137
+    21300276: uovo ruotare master_138
+    21300278: uovo ruotare master_139
+    21300280: uovo ruotare master_140
+    21300282: uovo ruotare master_141
+    21300284: uovo ruotare master_142
+    21300286: uovo ruotare master_143
+    21300288: uovo ruotare master_144
+    21300290: uovo ruotare master_145
+    21300292: uovo ruotare master_146
+    21300294: uovo ruotare master_147
+    21300296: uovo ruotare master_148
+    21300298: uovo ruotare master_149
+    21300300: uovo ruotare master_150
+    21300302: uovo ruotare master_151
+    21300304: uovo ruotare master_152
+    21300306: uovo ruotare master_153
+    21300308: uovo ruotare master_154
+    21300310: uovo ruotare master_155
+    21300312: uovo ruotare master_156
+    21300314: uovo ruotare master_157
+    21300316: uovo ruotare master_158
+    21300318: uovo ruotare master_159
+    21300320: uovo ruotare master_160
+    21300322: uovo ruotare master_161
+    21300324: uovo ruotare master_162
+    21300326: uovo ruotare master_163
+    21300328: uovo ruotare master_164
+    21300330: uovo ruotare master_165
+    21300332: uovo ruotare master_166
+    21300334: uovo ruotare master_167
+    21300336: uovo ruotare master_168
+    21300338: uovo ruotare master_169
+    21300340: uovo ruotare master_170
+    21300342: uovo ruotare master_171
+    21300344: uovo ruotare master_172
+    21300346: uovo ruotare master_173
+    21300348: uovo ruotare master_174
+    21300350: uovo ruotare master_175
+    21300352: uovo ruotare master_176
+    21300354: uovo ruotare master_177
+    21300356: uovo ruotare master_178
+    21300358: uovo ruotare master_179
+    21300360: uovo ruotare master_180
+    21300362: uovo ruotare master_181
+    21300364: uovo ruotare master_182
+    21300366: uovo ruotare master_183
+    21300368: uovo ruotare master_184
+    21300370: uovo ruotare master_185
+    21300372: uovo ruotare master_186
+    21300374: uovo ruotare master_187
+    21300376: uovo ruotare master_188
+    21300378: uovo ruotare master_189
+    21300380: uovo ruotare master_190
+    21300382: uovo ruotare master_191
+    21300384: uovo ruotare master_192
+    21300386: uovo ruotare master_193
+    21300388: uovo ruotare master_194
+    21300390: uovo ruotare master_195
+    21300392: uovo ruotare master_196
+    21300394: uovo ruotare master_197
+    21300396: uovo ruotare master_198
+    21300398: uovo ruotare master_199
+    21300400: uovo ruotare master_200
+    21300402: uovo ruotare master_201
+    21300404: uovo ruotare master_202
+    21300406: uovo ruotare master_203
+    21300408: uovo ruotare master_204
+    21300410: uovo ruotare master_205
+    21300412: uovo ruotare master_206
+    21300414: uovo ruotare master_207
+    21300416: uovo ruotare master_208
+    21300418: uovo ruotare master_209
+    21300420: uovo ruotare master_210
+    21300422: uovo ruotare master_211
+    21300424: uovo ruotare master_212
+    21300426: uovo ruotare master_213
+    21300428: uovo ruotare master_214
+    21300430: uovo ruotare master_215
+    21300432: uovo ruotare master_216
+    21300434: uovo ruotare master_217
+    21300436: uovo ruotare master_218
+    21300438: uovo ruotare master_219
+    21300440: uovo ruotare master_220
+    21300442: uovo ruotare master_221
+    21300444: uovo ruotare master_222
+    21300446: uovo ruotare master_223
+    21300448: uovo ruotare master_224
+    21300450: uovo ruotare master_225
+    21300452: uovo ruotare master_226
+    21300454: uovo ruotare master_227
+    21300456: uovo ruotare master_228
+    21300458: uovo ruotare master_229
+    21300460: uovo ruotare master_230
+    21300462: uovo ruotare master_231
+    21300464: uovo ruotare master_232
+    21300466: uovo ruotare master_233
+    21300468: uovo ruotare master_234
+    21300470: uovo ruotare master_235
+    21300472: uovo ruotare master_236
+    21300474: uovo ruotare master_237
+    21300476: uovo ruotare master_238
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uovo ruotare master_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_10
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_11
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_12
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_13
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_14
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 6075
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_17
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_19
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_21
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_22
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_23
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_24
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_25
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_26
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_27
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_28
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_29
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 5670
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_31
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_32
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_33
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_34
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_35
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_36
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_37
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_38
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_39
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_40
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_41
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_42
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_43
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_44
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 5265
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_47
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_48
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_49
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_50
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_51
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_52
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_53
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_54
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_55
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_56
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_57
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_58
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_59
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_61
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_62
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_63
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_64
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_65
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_66
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_67
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_68
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_69
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_70
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_71
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_72
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_73
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_74
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_76
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_77
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_78
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_79
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_81
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_82
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_83
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_84
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_85
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_86
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_87
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_88
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_89
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_91
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_92
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_93
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_94
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_95
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_96
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_97
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_98
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_99
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_100
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_101
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_102
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_103
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_104
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_106
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_107
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_108
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_109
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_110
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_111
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_112
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_113
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_114
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_115
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_116
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_117
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_118
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_119
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_121
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_122
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_123
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_124
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_125
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_126
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_127
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_128
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_129
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_130
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_131
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_132
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_133
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_134
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_136
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_137
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_138
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_139
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_140
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_141
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_142
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_143
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_144
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_145
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_146
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_147
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_148
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_149
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_151
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_152
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_153
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_154
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_155
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_156
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_157
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_158
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_159
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_160
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_161
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_162
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_163
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_164
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_166
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_167
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_168
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_169
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_170
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_171
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_172
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_173
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_174
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_175
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_176
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_177
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_178
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_179
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_181
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_182
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_183
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_184
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_185
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_186
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_187
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_188
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_189
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_190
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_191
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_192
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_193
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_194
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_196
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_197
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_198
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_199
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_200
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_201
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_202
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_203
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_204
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_205
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_206
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_207
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_208
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_209
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_211
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_212
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_213
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_214
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_215
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_216
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_217
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_218
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_219
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_220
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_221
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_222
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_223
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_224
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_225
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_226
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_227
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_228
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_229
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_230
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_231
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_232
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_233
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_234
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_235
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_236
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_237
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: uovo ruotare master_238
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

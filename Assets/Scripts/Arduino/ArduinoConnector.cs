@@ -69,6 +69,12 @@ namespace Arduino
 			return result;
 		}
 
+		public void SetLightFlag(bool flag)
+		{
+			string message = 13.ToString () + "," + flag.ToString();
+			_sender.SendToArduino(message);
+		}
+
 
 		/// <summary>
 		/// Request to light a given number of leds for a given player.

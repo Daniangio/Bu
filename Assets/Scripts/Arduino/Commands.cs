@@ -18,7 +18,8 @@ namespace Arduino
 		SwitchOff=11,
 		X_angle=12,
 		Y_angle=13,
-		Z_angle=13
+		Z_angle=14,
+		LightFlag=15
 	};
 
 }

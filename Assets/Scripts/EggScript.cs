@@ -6,11 +6,23 @@ using Arduino;
 
 public class EggScript : MonoBehaviour {
 
+	// JUST FOR BETA
+	Sprite sprite;
+	ParticlesAttractorScript particlesEmitter;
+	float worldScreenHeight;
+	float worldScreenWidth;
+
 	public MonsterQueueManagerScript monsterQueueManager;
 
+	//AUDIO
+	public AudioSource audioSource;
+	public AudioClip shakeAudio;
+	public AudioClip bendAudio;
+	public AudioClip turnAudio;
+
 	//TASK VARIABLES
-	string task = "BENDING HOR";
-	bool mustBendRight = true;
+	//string task = "BENDING HOR";
+	//bool mustBendRight = true;
 
 	//Gyroscope variables
 	//float basex_angle, basey_angle, basez_angle, basex_acc, basey_acc, basez_acc;
@@ -36,10 +48,16 @@ public class EggScript : MonoBehaviour {
 	int MAX_BRIGHTNESS = 200;
 
 	int intensity = 1;
-	int brightness = 50;
+	int brightness = 20;
 	string color = "ffffff";
 
 	void Start () {
+
+		sprite = gameObject.GetComponent<SpriteRenderer> ().sprite;
+		particlesEmitter = gameObject.GetComponent<ParticlesAttractorScript> ();
+		worldScreenHeight = Camera.main.orthographicSize * 2f;
+		worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+
 		am = new ArduinoManager ("\\\\.\\COM26");
 		ok = true;
 
@@ -52,6 +70,9 @@ public class EggScript : MonoBehaviour {
 
 		am.StartBar ();
 		LightUpLedBar ();
+
+		transform.localScale = new Vector3 (100, 100, 1);
+
 	}
 
 	void Update () {
@@ -70,6 +91,23 @@ public class EggScript : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			FillCompletionBar ();
 		}
+		if (Input.GetMouseButtonDown (0)) {
+			Vector2 spritePosition = GetSpritePositionOnScreen ();
+			foreach (Touch touch in Input.touches) {
+				if (touch.position.x > spritePosition.x + 5 * sprite.bounds.min.x &&
+				    touch.position.x < spritePosition.x + 5 * sprite.bounds.max.x &&
+				    touch.position.y > spritePosition.y + 5 * sprite.bounds.min.y &&
+				    touch.position.y < spritePosition.y + 5 * sprite.bounds.max.y)
+					FillCompletionBar ();
+			}
+		}
+	}
+
+	public Vector2 GetSpritePositionOnScreen() {
+		Vector2 position;
+		position.x = (transform.position.x + worldScreenWidth/2) / worldScreenWidth * Screen.width;
+		position.y = (transform.position.y + worldScreenHeight/2) / worldScreenHeight * Screen.height;
+		return position;
 	}
 
 	private void ReadFromArduino() {
@@ -86,10 +124,11 @@ public class EggScript : MonoBehaviour {
 					float.TryParse (response.Split ("," [0]) [5], out y_acc [arduinoCounter]);
 					float.TryParse (response.Split ("," [0]) [6], out z_acc [arduinoCounter]);
 					NormalizeAcceleration ();
+					Debug.Log (response);
 					//Debug.Log ("X: "+x_angle[arduinoCounter]+"\tY: "+y_angle[arduinoCounter]+"\tZ: "+z_angle[arduinoCounter]+"\txAcc: "+x_acc[arduinoCounter]+"\tyAcc: "+y_acc[arduinoCounter]+"\tzAcc: "+z_acc[arduinoCounter]);
 					break;
 				default:
-					//Debug.Log (response);
+					Debug.Log (response);
 					break;
 				}
 			}
@@ -216,54 +255,66 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void BendRight() {
+		audioSource.clip = bendAudio;
+		audioSource.Play ();
 		Debug.Log ("BEND RIGHT");
-		if (task == "BENDING HOR" && mustBendRight) {
+		/*if (task == "BENDING HOR" && mustBendRight) {
 			mustBendRight = false;
 			FillCompletionBar ();
-		}
+		}*/
 	}
 
 	private void BendLeft() {
+		audioSource.clip = bendAudio;
+		audioSource.Play ();
 		Debug.Log ("BEND LEFT");
-		if (task == "BENDING HOR" && !mustBendRight) {
+		/*if (task == "BENDING HOR" && !mustBendRight) {
 			mustBendRight = true;
 			FillCompletionBar ();
-		}
+		}*/
 	}
 
 	private void BendUp() {
+		audioSource.clip = bendAudio;
+		audioSource.Play ();
 		Debug.Log ("BEND UP");
 	}
 
 	private void BendDown() {
+		audioSource.clip = bendAudio;
+		audioSource.Play ();
 		Debug.Log ("BEND DOWN");
 	}
 
 	private void TurnCounterClockWise() {
+		audioSource.clip = turnAudio;
+		audioSource.Play ();
 		Debug.Log ("TURN COUNTERCLOCKWISE");
 	}
 
 	private void TurnClockWise() {
+		audioSource.clip = turnAudio;
+		audioSource.Play ();
 		Debug.Log ("TURN CLOCKWISE");
 	}
 
 	private void Shake() {
+		audioSource.clip = shakeAudio;
+		audioSource.Play ();
 		Debug.Log ("SHAKE");
 	}
 
 	private void FillCompletionBar () {
 		switch (Manager.monsterName) {
-		case "Mario":
+		default:
 			if (intensity < MAX_INTENSITY)
 				intensity += 1;
 			if (brightness < MAX_BRIGHTNESS) {
-				brightness += 50;
+				brightness += 90;
 				LightUpLedBar ();
 			}
 			else
 				ShowMonster ();
-			break;
-		default:
 			break;
 		}
 	}
@@ -271,17 +322,32 @@ public class EggScript : MonoBehaviour {
 	private void ShowMonster() {
 		monsterQueueManager.ShowMonster ();
 		intensity = 1;
-		brightness = 50;
+		brightness = 20;
 		color = "ffffff";
 		LightUpLedBar ();
 
 		switch(Manager.monsterName) {
 
-			case("Mario"):
-				ShowEffect (2, 10000);
-				break;
-			default:
-				break;
+		case("Armadio"):
+			ShowEffect (1, 10000);
+			break;
+		case("Sedia"):
+			ShowEffect (2, 10000);
+			break;
+		case("Specchio"):
+			ShowEffect (3, 10000);
+			break;
+		case("Comodino"):
+			ShowEffect (9, 10000);
+			break;
+		case("Lampada"):
+			ShowEffect (4, 10000);
+			break;
+		case("Appendino"):
+			ShowEffect (6, 10000);
+			break;
+		default:
+			break;
 		}
 	}
 
