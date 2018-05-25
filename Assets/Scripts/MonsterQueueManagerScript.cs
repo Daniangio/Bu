@@ -15,6 +15,19 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 
 	public EggScript egg;
 
+	//LIGHT
+	public Light ambientLight;
+	public Light monsterLight;
+	Color actualLightColor = Color.white;
+	Color newLightColor = Color.white;
+
+	float t = 0f;
+
+	float actualLightRange = 38f;
+	float newLightRange = 38f;
+
+	float r = 0f;
+
 	// Use this for initialization
 	void Start () {
 		shadowPrefab = (GameObject)Resources.Load ("Prefabs/ShadowMonsterPrefab", typeof(GameObject));
@@ -29,6 +42,8 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		UpdateLight ();
 		
 	}
 
@@ -48,6 +63,11 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 		string nextMonster;
 		string queueMonster;
 
+		//Ambient Light
+		ChangeLightColor (1f, 1f, 1f);
+		newLightRange = 38f;
+
+		//Pick next monster
 		if (monstersList.Count > 0) {
 			nextMonster = monstersList [0];
 
@@ -59,37 +79,44 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 			monstersList.RemoveAt (0);
 
 			Sprite spr_s = null, spr = null;
+			string stateName = "";
 			if (nextMonster == "Armadio") {
 				spr_s = Resources.Load ("Sprites/armadio_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/armadio", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 0);
+				stateName = "ribalta";
 			}
 			if (nextMonster == "Sedia") {
 				spr_s = Resources.Load ("Sprites/sedia_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/sedia", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 1);
+				stateName = "ruota";
 			}
 			if (nextMonster == "Specchio") {
 				spr_s = Resources.Load ("Sprites/specchio_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/specchio", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 2);
+				stateName = "shake";
 			}
 			if (nextMonster == "Comodino") {
 				spr_s = Resources.Load ("Sprites/comodino_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/comodino", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 3);
+				stateName = "x";
 			}
 			if (nextMonster == "Lampada") {
 				spr_s = Resources.Load ("Sprites/lampada_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/lampada", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 4);
+				stateName = "y";
 			}
 			if (nextMonster == "Appendino") {
 				spr_s = Resources.Load ("Sprites/appendino_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/appendino", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 0);
+				stateName = "ribalta";
 			}
-			egg.GetComponent<Animator> ().Play ("state");
+			egg.GetComponent<Animator> ().Play(stateName);
 			
 				currentMonster = Instantiate (shadowPrefab, new Vector3 (20f, -11f, -1), Quaternion.identity);
 				currentMonster.GetComponent<SpriteRenderer> ().sprite = spr_s;
@@ -107,6 +134,42 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 	public void ShowMonster() {
 		shadowMonster.Uncover ();
 		realMonster.Uncover ();
+
+		ChangeLightColor (0.7f, 0.7f, 0.7f);
+		newLightRange = 45f;
+	}
+
+	private void UpdateLight() {
+		if (ambientLight.color != newLightColor) {
+			t += Time.deltaTime;
+			ambientLight.color = new Color(
+				Mathf.Lerp (actualLightColor.r, newLightColor.r, Mathf.SmoothStep (0, 1, t)),
+				Mathf.Lerp (actualLightColor.g, newLightColor.g, Mathf.SmoothStep (0, 1, t)),
+				Mathf.Lerp (actualLightColor.b, newLightColor.b, Mathf.SmoothStep (0, 1, t)),
+				Mathf.Lerp (actualLightColor.a, newLightColor.a, Mathf.SmoothStep (0, 1, t)));
+			if (ambientLight.color == newLightColor) {
+				actualLightColor = newLightColor;
+				t = 0f;
+			}
+		}
+
+		if (actualLightRange != newLightRange) {
+			r += Time.deltaTime / 5;
+			actualLightRange = Mathf.Lerp (actualLightRange, newLightRange, Mathf.SmoothStep (0, 1, r));
+			if (actualLightRange == newLightRange) {
+				r = 0f;
+			}
+
+			monsterLight.range = actualLightRange;
+		}
+	}
+
+	public void ChangeLightColor(float r, float g, float b) {
+		newLightColor = new Color (r, g, b);
+	}
+
+	public void ChangeLightColor(Color color) {
+		newLightColor = color;
 	}
 
 }

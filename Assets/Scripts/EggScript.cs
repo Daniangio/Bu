@@ -58,7 +58,7 @@ public class EggScript : MonoBehaviour {
 		worldScreenHeight = Camera.main.orthographicSize * 2f;
 		worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
-		am = new ArduinoManager ("\\\\.\\COM26");
+		am = new ArduinoManager ("\\\\.\\COM27");
 		ok = true;
 
 		x_angle = new float[arduinoBufferSize];
@@ -78,28 +78,29 @@ public class EggScript : MonoBehaviour {
 	void Update () {
 
 		ReadFromArduino ();
-		UpdateEggLight ();
+		//UpdateEggLight ();
 
 
-		//JUST FOR TESTING
+		/*JUST FOR TESTING
 		if (Input.GetKeyDown (KeyCode.A)) {
 			ChangeLightColor ((float)Random.Range (0, 256) / 255, (float)Random.Range (0, 256) / 255, (float)Random.Range (0, 256) /255);
 		}
 		if (Input.GetKeyDown (KeyCode.S)) {
 			ChangeLightColor (1,1,1);
-		}
+		}*/
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			FillCompletionBar ();
 		}
 		if (Input.GetMouseButtonDown (0)) {
 			Vector2 spritePosition = GetSpritePositionOnScreen ();
-			foreach (Touch touch in Input.touches) {
+			/*foreach (Touch touch in Input.touches) {
 				if (touch.position.x > spritePosition.x + 5 * sprite.bounds.min.x &&
 				    touch.position.x < spritePosition.x + 5 * sprite.bounds.max.x &&
 				    touch.position.y > spritePosition.y + 5 * sprite.bounds.min.y &&
 				    touch.position.y < spritePosition.y + 5 * sprite.bounds.max.y)
 					FillCompletionBar ();
-			}
+			}*/
+			FillCompletionBar ();
 		}
 	}
 
@@ -239,7 +240,7 @@ public class EggScript : MonoBehaviour {
 			Shake ();
 	}
 
-	private void UpdateEggLight() {
+	/*private void UpdateEggLight() {
 		if (eggLight.color != newLightColor) {
 			t += Time.deltaTime;
 			eggLight.color = new Color(
@@ -252,7 +253,7 @@ public class EggScript : MonoBehaviour {
 				t = 0f;
 			}
 		}
-	}
+	}*/
 
 	private void BendRight() {
 		audioSource.clip = bendAudio;
@@ -321,6 +322,8 @@ public class EggScript : MonoBehaviour {
 
 	private void ShowMonster() {
 		monsterQueueManager.ShowMonster ();
+
+		//Arduino
 		intensity = 1;
 		brightness = 20;
 		color = "ffffff";
@@ -329,22 +332,22 @@ public class EggScript : MonoBehaviour {
 		switch(Manager.monsterName) {
 
 		case("Armadio"):
-			ShowEffect (1, 10000);
+			ShowEffect (1, 9000);
 			break;
 		case("Sedia"):
-			ShowEffect (2, 10000);
+			ShowEffect (2, 9000);
 			break;
 		case("Specchio"):
-			ShowEffect (3, 10000);
+			ShowEffect (3, 9000);
 			break;
 		case("Comodino"):
-			ShowEffect (9, 10000);
+			ShowEffect (9, 9000);
 			break;
 		case("Lampada"):
-			ShowEffect (4, 10000);
+			ShowEffect (4, 9000);
 			break;
 		case("Appendino"):
-			ShowEffect (6, 10000);
+			ShowEffect (6, 9000);
 			break;
 		default:
 			break;
@@ -383,7 +386,7 @@ public class EggScript : MonoBehaviour {
 		am.ShowEffect (2, effectNumber, millis);
 	}
 
-	//Methods for Egg's light
+	/*Methods for Egg's light
 
 	public void ChangeLightColor(float r, float g, float b) {
 		newLightColor = new Color (r, g, b);
@@ -391,6 +394,6 @@ public class EggScript : MonoBehaviour {
 
 	public void ChangeLightColor(Color color) {
 		newLightColor = color;
-	}
+	}*/
 
 }

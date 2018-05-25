@@ -13,10 +13,12 @@ public class RealMonsterScript : MonoBehaviour {
 	private float blendSpeed = 0.25f;
 
 	private MonsterQueueManagerScript queueManager;
+	private BraccioBuioScript braccioBuio;
 
 	// Use this for initialization
 	void Start () {
 		queueManager = GameObject.Find ("MonsterQueueManager").GetComponent<MonsterQueueManagerScript>();
+		braccioBuio = GameObject.Find ("BraccioBuio").GetComponent<BraccioBuioScript>();
 	}
 
 	// Update is called once per frame
@@ -42,7 +44,9 @@ public class RealMonsterScript : MonoBehaviour {
 	}
 
 	IEnumerator StartGreetingAnimation() {
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (5);
+		braccioBuio.Animation_NextMonster ();
+		yield return new WaitForSeconds (2);
 		queueManager.NextMonster ();
 	}
 

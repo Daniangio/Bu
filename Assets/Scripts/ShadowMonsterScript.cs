@@ -32,6 +32,9 @@ public class ShadowMonsterScript : MonoBehaviour {
 			//_mat.SetFloat ("_LerpValue", blendingValue);
 
 			Color tmp = this.GetComponent<SpriteRenderer>().color;
+			if (uncovered && blendingValue > 0f) {
+				gameObject.GetComponent<SpriteRenderer> ().material.SetColor("_Color", Color.red);
+			}
 			tmp.a = blendingValue;
 			this.GetComponent<SpriteRenderer>().color = tmp;
 		}
