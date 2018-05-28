@@ -8,11 +8,12 @@ public class EggScript : MonoBehaviour {
 
 	// JUST FOR BETA
 	Sprite sprite;
-	ParticlesAttractorScript particlesEmitter;
+	//ParticlesAttractorScript particlesEmitter;
 	float worldScreenHeight;
 	float worldScreenWidth;
 
 	public MonsterQueueManagerScript monsterQueueManager;
+	public BuioAnimationScr buio;
 
 	//AUDIO
 	public AudioSource audioSource;
@@ -36,13 +37,6 @@ public class EggScript : MonoBehaviour {
 	ArduinoManager am;
 	bool ok = false;
 
-	//Light Effects on Screen
-	public Light eggLight;
-	Color actualLightColor = Color.white;
-	Color newLightColor = Color.white;
-
-	float t = 0f;
-
 	//Task oriented variables
 	int MAX_INTENSITY = 4;
 	int MAX_BRIGHTNESS = 200;
@@ -54,7 +48,7 @@ public class EggScript : MonoBehaviour {
 	void Start () {
 
 		sprite = gameObject.GetComponent<SpriteRenderer> ().sprite;
-		particlesEmitter = gameObject.GetComponent<ParticlesAttractorScript> ();
+		//particlesEmitter = gameObject.GetComponent<ParticlesAttractorScript> ();
 		worldScreenHeight = Camera.main.orthographicSize * 2f;
 		worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
@@ -93,14 +87,15 @@ public class EggScript : MonoBehaviour {
 		}
 		if (Input.GetMouseButtonDown (0)) {
 			Vector2 spritePosition = GetSpritePositionOnScreen ();
-			/*foreach (Touch touch in Input.touches) {
+			foreach (Touch touch in Input.touches) {
 				if (touch.position.x > spritePosition.x + 5 * sprite.bounds.min.x &&
 				    touch.position.x < spritePosition.x + 5 * sprite.bounds.max.x &&
 				    touch.position.y > spritePosition.y + 5 * sprite.bounds.min.y &&
 				    touch.position.y < spritePosition.y + 5 * sprite.bounds.max.y)
 					FillCompletionBar ();
-			}*/
-			FillCompletionBar ();
+			}
+
+			buio.PlayEyesAnimation ("occhiolino");
 		}
 	}
 
@@ -313,14 +308,20 @@ public class EggScript : MonoBehaviour {
 			if (brightness < MAX_BRIGHTNESS) {
 				brightness += 90;
 				LightUpLedBar ();
-			}
-			else
+
+				buio.PlayEyesAnimation ("si");
+			} else {
+				buio.PlayEyesAnimation ("felice");
 				ShowMonster ();
+			}
 			break;
 		}
 	}
 
 	private void ShowMonster() {
+
+		buio.PlayEyesAnimation ("felice");
+
 		monsterQueueManager.ShowMonster ();
 
 		//Arduino
@@ -385,15 +386,5 @@ public class EggScript : MonoBehaviour {
 	public void ShowEffect(int effectNumber, int millis = 10000) {
 		am.ShowEffect (2, effectNumber, millis);
 	}
-
-	/*Methods for Egg's light
-
-	public void ChangeLightColor(float r, float g, float b) {
-		newLightColor = new Color (r, g, b);
-	}
-
-	public void ChangeLightColor(Color color) {
-		newLightColor = color;
-	}*/
 
 }

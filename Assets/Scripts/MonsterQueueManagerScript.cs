@@ -14,6 +14,7 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 	private RealMonsterScript realMonster;
 
 	public EggScript egg;
+	public BuioAnimationScr buio;
 
 	//LIGHT
 	public Light ambientLight;
@@ -129,6 +130,8 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 				realMonster = currentMonster.GetComponent<RealMonsterScript> ();
 				realMonster.queued = false;
 		}
+
+		buio.PlayEyesAnimation ("shake");
 	}
 
 	public void ShowMonster() {

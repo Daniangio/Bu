@@ -5,7 +5,6 @@ using System.Linq;
 
 public class BraccioBuioScript : MonoBehaviour {
 
-	bool animate = false;
 	Animator animator;
 
 	void Start () {
