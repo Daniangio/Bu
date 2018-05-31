@@ -9,7 +9,7 @@ public class BraccioBuioScript : MonoBehaviour {
 
 	void Start () {
 		animator = GetComponent<Animator> ();
-		transform.localScale = new Vector3 (150, 150, 150);
+		transform.localScale = new Vector3 (100, 100, 1);
 		animator.Play ("Idle");
 	}
 

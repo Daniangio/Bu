@@ -25,7 +25,7 @@ namespace Arduino
 		private void Setup()
 		{
 			_connector.Setup();
-			while (!_connector.isReady()) { };
+			//while (!_connector.isReady()) {	};
 		}
 
 		private void WaitForThread (Thread t)

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BuioAnimationScr : MonoBehaviour {
 
-	Animator animator;
+	Animator animator = null;
 
 	void Start () {
 		animator = GetComponent<Animator> ();
@@ -23,19 +23,33 @@ public class BuioAnimationScr : MonoBehaviour {
 		case "blink":
 			time = 5.0f;
 			break;
+		case "risveglio":
+			time = 5.0f;
+			break;
+		case "occhiolino":
+			time = 5.0f;
+			break;
+		case "si":
+			time = 4.0f;
+			break;
+		case "felice":
+			time = 4.0f;
+			break;
 		default:
 			time = 5.0f;
 			break;
 		}
-		StopCoroutine ("PlayAnimation");
+		StopAllCoroutines ();
 		StartCoroutine(PlayAnimation(animationName, "blink", time));
 	}
 
 	IEnumerator PlayAnimation(string newAnimationName, string returnToThisAnimation, float time) {
-		animator.Play (newAnimationName);
+		if (animator != null) {
+			animator.Play (newAnimationName);
 
-		yield return new WaitForSeconds (time);
+			yield return new WaitForSeconds (time);
 
-		animator.Play (returnToThisAnimation);
+			animator.Play (returnToThisAnimation);
+		}
 	}
 }

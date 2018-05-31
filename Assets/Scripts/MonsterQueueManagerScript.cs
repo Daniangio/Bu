@@ -24,8 +24,8 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 
 	float t = 0f;
 
-	float actualLightRange = 38f;
-	float newLightRange = 38f;
+	float actualLightRange = 40f;
+	float newLightRange = 28f;
 
 	float r = 0f;
 
@@ -66,7 +66,7 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 
 		//Ambient Light
 		ChangeLightColor (1f, 1f, 1f);
-		newLightRange = 38f;
+		newLightRange = 28f;
 
 		//Pick next monster
 		if (monstersList.Count > 0) {
@@ -81,50 +81,61 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 
 			Sprite spr_s = null, spr = null;
 			string stateName = "";
-			if (nextMonster == "Armadio") {
+			switch (nextMonster) {
+			case "Armadio":
 				spr_s = Resources.Load ("Sprites/armadio_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/armadio", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 0);
 				stateName = "ribalta";
-			}
-			if (nextMonster == "Sedia") {
+				egg.task = "RIBALTA";
+				break;
+			case "Sedia":
 				spr_s = Resources.Load ("Sprites/sedia_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/sedia", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 1);
 				stateName = "ruota";
-			}
-			if (nextMonster == "Specchio") {
+				egg.task = "RUOTA";
+				break;
+			case "Specchio":
 				spr_s = Resources.Load ("Sprites/specchio_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/specchio", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 2);
 				stateName = "shake";
-			}
-			if (nextMonster == "Comodino") {
+				egg.task = "SHAKE";
+				break;
+			case "Comodino":
 				spr_s = Resources.Load ("Sprites/comodino_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/comodino", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 3);
 				stateName = "x";
-			}
-			if (nextMonster == "Lampada") {
+				egg.task = "TRASLA X";
+				break;
+			case "Lampada":
 				spr_s = Resources.Load ("Sprites/lampada_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/lampada", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 4);
 				stateName = "y";
-			}
-			if (nextMonster == "Appendino") {
+				egg.task = "TRASLA Y";
+				break;
+			case "Appendino":
 				spr_s = Resources.Load ("Sprites/appendino_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/appendino", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 0);
 				stateName = "ribalta";
+				egg.task = "RIBALTA";
+				break;
+			default:
+				break;
 			}
+
 			egg.GetComponent<Animator> ().Play(stateName);
 			
-				currentMonster = Instantiate (shadowPrefab, new Vector3 (20f, -11f, -1), Quaternion.identity);
+				currentMonster = Instantiate (shadowPrefab, new Vector3 (20f, -11f, 0), Quaternion.identity);
 				currentMonster.GetComponent<SpriteRenderer> ().sprite = spr_s;
 				currentMonster.transform.localScale = new Vector3 (8, 8, 1);
 				shadowMonster = currentMonster.GetComponent<ShadowMonsterScript> ();
 				shadowMonster.queued = false;
-				currentMonster = Instantiate (realPrefab, new Vector3 (20f, -11f, -1), Quaternion.identity);
+				currentMonster = Instantiate (realPrefab, new Vector3 (20f, -11f, 0), Quaternion.identity);
 				currentMonster.GetComponent<SpriteRenderer> ().sprite = spr;
 				currentMonster.transform.localScale = new Vector3 (8, 8, 1);
 				realMonster = currentMonster.GetComponent<RealMonsterScript> ();
@@ -132,6 +143,7 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 		}
 
 		buio.PlayEyesAnimation ("shake");
+		egg.waitBeforeContinue = false;
 	}
 
 	public void ShowMonster() {
@@ -139,7 +151,7 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 		realMonster.Uncover ();
 
 		ChangeLightColor (0.7f, 0.7f, 0.7f);
-		newLightRange = 45f;
+		newLightRange = 40f;
 	}
 
 	private void UpdateLight() {

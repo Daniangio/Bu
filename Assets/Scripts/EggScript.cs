@@ -18,12 +18,21 @@ public class EggScript : MonoBehaviour {
 	//AUDIO
 	public AudioSource audioSource;
 	public AudioClip shakeAudio;
+	public AudioClip accXAudio;
+	public AudioClip accYAudio;
 	public AudioClip bendAudio;
 	public AudioClip turnAudio;
 
 	//TASK VARIABLES
-	//string task = "BENDING HOR";
-	//bool mustBendRight = true;
+	public string task = "";
+	bool mustBendRight = true;
+	bool mustAccRight = true;
+	bool mustAccTop = true;
+	int ruotaLevel = 0;
+	string ruotaDir = "Dx";
+
+	//To avoid one to play before the animations end
+	public bool waitBeforeContinue = false;
 
 	//Gyroscope variables
 	//float basex_angle, basey_angle, basez_angle, basex_acc, basey_acc, basez_acc;
@@ -85,6 +94,11 @@ public class EggScript : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			FillCompletionBar ();
 		}
+
+		if (Input.GetKeyDown (KeyCode.Q)) {
+			am.SwitchOff ();
+		}
+
 		if (Input.GetMouseButtonDown (0)) {
 			Vector2 spritePosition = GetSpritePositionOnScreen ();
 			foreach (Touch touch in Input.touches) {
@@ -110,7 +124,8 @@ public class EggScript : MonoBehaviour {
 		if (ok) {
 			string response = am.ReadFromArduino ();
 			if (response != null) {
-				int type = int.Parse (response.Split ("," [0]) [0]);
+				int type = 0;
+				try {type = int.Parse (response.Split ("," [0]) [0]);} catch {Debug.Log(response);}
 				switch(type) {
 				case (12):
 					float.TryParse (response.Split ("," [0]) [1], out x_angle [arduinoCounter]);
@@ -120,11 +135,11 @@ public class EggScript : MonoBehaviour {
 					float.TryParse (response.Split ("," [0]) [5], out y_acc [arduinoCounter]);
 					float.TryParse (response.Split ("," [0]) [6], out z_acc [arduinoCounter]);
 					NormalizeAcceleration ();
-					Debug.Log (response);
+					//Debug.Log (response);
 					//Debug.Log ("X: "+x_angle[arduinoCounter]+"\tY: "+y_angle[arduinoCounter]+"\tZ: "+z_angle[arduinoCounter]+"\txAcc: "+x_acc[arduinoCounter]+"\tyAcc: "+y_acc[arduinoCounter]+"\tzAcc: "+z_acc[arduinoCounter]);
 					break;
 				default:
-					Debug.Log (response);
+					//Debug.Log (response);
 					break;
 				}
 			}
@@ -144,10 +159,82 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void CheckActionTaken() {
+
+		//CHECK RIGHT ACCELERATION (X ACC POSITIVE)
+		float accSensitivity = 0.1f;
+		bool incrementing = true;
+		for (int i = 0; i < arduinoBufferSize; i++) {
+			if (x_acc [i] < accSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			AccRight ();
+
+		//CHECK LEFT ACCELERATION (X ACC NEGATIVE)
+		accSensitivity = 0.1f;
+		incrementing = true;
+		for (int i = 0; i < arduinoBufferSize; i++) {
+			if (x_acc [i] > -accSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			AccLeft ();
+
+		//CHECK UP ACCELERATION (Y ACC POSITIVE)
+		accSensitivity = 0.1f;
+		incrementing = true;
+		for (int i = 0; i < arduinoBufferSize; i++) {
+			if (y_acc [i] < accSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			AccUp ();
+
+		//CHECK DOWN ACCELERATION (Y ACC NEGATIVE)
+		accSensitivity = 0.1f;
+		incrementing = true;
+		for (int i = 0; i < arduinoBufferSize; i++) {
+			if (y_acc [i] > -accSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			AccDown ();
+
+		//CHECK TOP ACCELERATION (X ACC POSITIVE)
+		accSensitivity = 0.1f + 0.95f; // 0.95f is the default gravity force on the Z axis
+		incrementing = true;
+		for (int i = 0; i < arduinoBufferSize; i++) {
+			if (z_acc [i] < accSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			AccTop ();
+
+		//CHECK BOTTOM ACCELERATION (X ACC NEGATIVE)
+		accSensitivity = -0.1f + 0.95f;
+		incrementing = true;
+		for (int i = 0; i < arduinoBufferSize; i++) {
+			if (z_acc [i] > accSensitivity) {
+				incrementing = false;
+				break;
+			}
+		}
+		if (incrementing)
+			AccBottom ();
 		
 		//CHECK RIGHT BENDING (X ANGLE INCREASES)
 		float angleSensitivity = 1.0f;
-		bool incrementing = true;
+		incrementing = true;
 		for (int i = 1; i < arduinoBufferSize; i++) {
 			if (x_angle [i] < x_angle [i - 1] + angleSensitivity) {
 				incrementing = false;
@@ -250,36 +337,152 @@ public class EggScript : MonoBehaviour {
 		}
 	}*/
 
+	private void AccRight() {
+		audioSource.clip = accXAudio;
+		audioSource.Play ();
+		Debug.Log ("MOVE RIGHT");
+		if (task == "X" && mustAccRight) {
+			mustAccRight = false;
+		}
+	}
+
+	private void AccLeft() {
+		audioSource.clip = accXAudio;
+		audioSource.Play ();
+		Debug.Log ("MOVE LEFT");
+		if (task == "X" && !mustAccRight) {
+			mustAccRight = true;
+			FillCompletionBar ();
+		}
+	}
+
+	private void AccTop() {
+		audioSource.clip = accYAudio;
+		audioSource.Play ();
+		Debug.Log ("MOVE TOP");
+		if (task == "Y" && mustAccTop) {
+			mustAccTop = false;
+		}
+	}
+
+	private void AccBottom() {
+		audioSource.clip = accYAudio;
+		audioSource.Play ();
+		Debug.Log ("MOVE BOTTOM");
+		if (task == "Y" && !mustAccTop) {
+			mustAccTop = true;
+			FillCompletionBar ();
+		}
+	}
+
+	private void AccUp() {
+		audioSource.clip = accXAudio;
+		audioSource.Play ();
+		Debug.Log ("MOVE UP");
+		if (task == "X" && mustAccRight) {
+			mustAccRight = false;
+		}
+	}
+
+	private void AccDown() {
+		audioSource.clip = accXAudio;
+		audioSource.Play ();
+		Debug.Log ("MOVE DOWN");
+		if (task == "X" && !mustAccRight) {
+			mustAccRight = true;
+			FillCompletionBar ();
+		}
+	}
+
 	private void BendRight() {
 		audioSource.clip = bendAudio;
 		audioSource.Play ();
 		Debug.Log ("BEND RIGHT");
-		/*if (task == "BENDING HOR" && mustBendRight) {
+		if (task == "RIBALTA" && mustBendRight) {
 			mustBendRight = false;
-			FillCompletionBar ();
-		}*/
+		}
+		if (task == "RUOTA") {
+			if (ruotaDir == "Dx") {
+				if (ruotaLevel < 3)
+					ruotaLevel += 1;
+				else {
+					ruotaLevel = 0;
+					FillCompletionBar ();
+				}
+			} else {
+				ruotaDir = "Dx";
+				ruotaLevel = 1;
+			}
+		}
 	}
 
 	private void BendLeft() {
 		audioSource.clip = bendAudio;
 		audioSource.Play ();
 		Debug.Log ("BEND LEFT");
-		/*if (task == "BENDING HOR" && !mustBendRight) {
+		if (task == "RIBALTA" && !mustBendRight) {
 			mustBendRight = true;
 			FillCompletionBar ();
-		}*/
+		}
+		if (task == "RUOTA") {
+			if (ruotaDir == "Sx") {
+				if (ruotaLevel < 3)
+					ruotaLevel += 1;
+				else {
+					ruotaLevel = 0;
+					FillCompletionBar ();
+				}
+			} else {
+				ruotaDir = "Sx";
+				ruotaLevel = 1;
+			}
+		}
 	}
 
 	private void BendUp() {
 		audioSource.clip = bendAudio;
 		audioSource.Play ();
 		Debug.Log ("BEND UP");
+		if (task == "RIBALTA" && mustBendRight) {
+			mustBendRight = false;
+			FillCompletionBar ();
+		}
+		if (task == "RUOTA") {
+			if (ruotaDir == "Up") {
+				if (ruotaLevel < 3)
+					ruotaLevel += 1;
+				else {
+					ruotaLevel = 0;
+					FillCompletionBar ();
+				}
+			} else {
+				ruotaDir = "Up";
+				ruotaLevel = 1;
+			}
+		}
 	}
 
 	private void BendDown() {
 		audioSource.clip = bendAudio;
 		audioSource.Play ();
 		Debug.Log ("BEND DOWN");
+		if (task == "RIBALTA" && !mustBendRight) {
+			mustBendRight = true;
+			FillCompletionBar ();
+		}
+		if (task == "RUOTA") {
+			if (ruotaDir == "Down") {
+				if (ruotaLevel < 3)
+					ruotaLevel += 1;
+				else {
+					ruotaLevel = 0;
+					FillCompletionBar ();
+				}
+			} else {
+				ruotaDir = "Down";
+				ruotaLevel = 1;
+			}
+		}
 	}
 
 	private void TurnCounterClockWise() {
@@ -298,24 +501,36 @@ public class EggScript : MonoBehaviour {
 		audioSource.clip = shakeAudio;
 		audioSource.Play ();
 		Debug.Log ("SHAKE");
+		if (task == "SHAKE")
+			FillCompletionBar ();
 	}
 
 	private void FillCompletionBar () {
-		switch (Manager.monsterName) {
-		default:
-			if (intensity < MAX_INTENSITY)
-				intensity += 1;
-			if (brightness < MAX_BRIGHTNESS) {
-				brightness += 90;
-				LightUpLedBar ();
+		if (!waitBeforeContinue) {
+			waitBeforeContinue = true;
+			switch (Manager.monsterName) {
+			default:
+				if (intensity < MAX_INTENSITY)
+					intensity += 1;
+				
+				if (brightness < MAX_BRIGHTNESS) {
+					brightness += 90;
+					LightUpLedBar ();
+					buio.PlayEyesAnimation ("si");
+					StartCoroutine(WaitBeforeContinue(1.5f));
 
-				buio.PlayEyesAnimation ("si");
-			} else {
-				buio.PlayEyesAnimation ("felice");
-				ShowMonster ();
+				} else {
+					buio.PlayEyesAnimation ("felice");
+					ShowMonster ();
+				}
+				break;
 			}
-			break;
 		}
+	}
+
+	IEnumerator WaitBeforeContinue(float time) {
+		yield return new WaitForSeconds (time);
+		waitBeforeContinue = false;
 	}
 
 	private void ShowMonster() {

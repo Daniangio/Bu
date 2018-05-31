@@ -1,0 +1,1332 @@
+fileFormatVersion: 2
+guid: 9f48e8f0eec73634ab243e9287fffe80
+timeCreated: 1527689172
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite transizione_0
+    21300002: sprite transizione_1
+    21300004: sprite transizione_2
+    21300006: sprite transizione_3
+    21300008: sprite transizione_4
+    21300010: sprite transizione_5
+    21300012: sprite transizione_6
+    21300014: sprite transizione_7
+    21300016: sprite transizione_8
+    21300018: sprite transizione_9
+    21300020: sprite transizione_10
+    21300022: sprite transizione_11
+    21300024: sprite transizione_12
+    21300026: sprite transizione_13
+    21300028: sprite transizione_14
+    21300030: sprite transizione_15
+    21300032: sprite transizione_16
+    21300034: sprite transizione_17
+    21300036: sprite transizione_18
+    21300038: sprite transizione_19
+    21300040: sprite transizione_20
+    21300042: sprite transizione_21
+    21300044: sprite transizione_22
+    21300046: sprite transizione_23
+    21300048: sprite transizione_24
+    21300050: sprite transizione_25
+    21300052: sprite transizione_26
+    21300054: sprite transizione_27
+    21300056: sprite transizione_28
+    21300058: sprite transizione_29
+    21300060: sprite transizione_30
+    21300062: sprite transizione_31
+    21300064: sprite transizione_32
+    21300066: sprite transizione_33
+    21300068: sprite transizione_34
+    21300070: sprite transizione_35
+    21300072: sprite transizione_36
+    21300074: sprite transizione_37
+    21300076: sprite transizione_38
+    21300078: sprite transizione_39
+    21300080: sprite transizione_40
+    21300082: sprite transizione_41
+    21300084: sprite transizione_42
+    21300086: sprite transizione_43
+    21300088: sprite transizione_44
+    21300090: sprite transizione_45
+    21300092: sprite transizione_46
+    21300094: sprite transizione_47
+    21300096: sprite transizione_48
+    21300098: sprite transizione_49
+    21300100: sprite transizione_50
+    21300102: sprite transizione_51
+    21300104: sprite transizione_52
+    21300106: sprite transizione_53
+    21300108: sprite transizione_54
+    21300110: sprite transizione_55
+    21300112: sprite transizione_56
+    21300114: sprite transizione_57
+    21300116: sprite transizione_58
+    21300118: sprite transizione_59
+    21300120: sprite transizione_60
+    21300122: sprite transizione_61
+    21300124: sprite transizione_62
+    21300126: sprite transizione_63
+    21300128: sprite transizione_64
+    21300130: sprite transizione_65
+    21300132: sprite transizione_66
+    21300134: sprite transizione_67
+    21300136: sprite transizione_68
+    21300138: sprite transizione_69
+    21300140: sprite transizione_70
+    21300142: sprite transizione_71
+    21300144: sprite transizione_72
+    21300146: sprite transizione_73
+    21300148: sprite transizione_74
+    21300150: sprite transizione_75
+    21300152: sprite transizione_76
+    21300154: sprite transizione_77
+    21300156: sprite transizione_78
+    21300158: sprite transizione_79
+    21300160: sprite transizione_80
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite transizione_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_1
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_2
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_3
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_4
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_5
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_6
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_7
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_8
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 8192
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_10
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_11
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_12
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_13
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_14
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_15
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_16
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_17
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 7168
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_19
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_20
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_21
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_22
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_23
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_24
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_25
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_26
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 6144
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_28
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_29
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_30
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_31
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_32
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_33
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_34
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_35
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 5120
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_37
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_38
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_39
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_40
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_41
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_42
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_43
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_44
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 4096
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_46
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_47
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_48
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_49
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_50
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_51
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_52
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_53
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 3072
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_55
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_56
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_57
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_58
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_59
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_60
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_61
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_62
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 2048
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_64
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_65
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_66
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_67
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_68
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_69
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_70
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_71
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 1024
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_73
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_74
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_75
+      rect:
+        serializedVersion: 2
+        x: 4098
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_76
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_77
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_78
+      rect:
+        serializedVersion: 2
+        x: 8196
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_79
+      rect:
+        serializedVersion: 2
+        x: 9562
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite transizione_80
+      rect:
+        serializedVersion: 2
+        x: 10928
+        y: 0
+        width: 1366
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

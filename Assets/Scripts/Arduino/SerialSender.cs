@@ -101,11 +101,9 @@ namespace Arduino
 				if (result != null)
 					_inputQueue.Enqueue (result);
 			}
-
 			_stream.Close ();
+			_thread.Abort ();
 		}
-
-
 
 
 	}

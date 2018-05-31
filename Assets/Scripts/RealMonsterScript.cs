@@ -46,7 +46,7 @@ public class RealMonsterScript : MonoBehaviour {
 	IEnumerator StartGreetingAnimation() {
 		yield return new WaitForSeconds (5);
 		braccioBuio.Animation_NextMonster ();
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (2.5f);
 		queueManager.NextMonster ();
 	}
 
