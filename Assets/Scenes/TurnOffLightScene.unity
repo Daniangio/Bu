@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 984777c33fa996f4eae11c96dbaf502b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: StartMenuScene
+  nextScene: CutScene
   image: {fileID: 1657571218}
   videoToPlay: {fileID: 32900000, guid: 4da3821044d011846b56941433d894fa, type: 3}
 --- !u!114 &1657571218

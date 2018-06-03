@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 
 public class VideoStreamScript : MonoBehaviour {
 
@@ -16,10 +17,18 @@ public class VideoStreamScript : MonoBehaviour {
 	private VideoSource videoSource;
 	private AudioSource audioSource;
 
+	private bool eggBlinked = false;
+
 
 	void Start () {
 		Application.runInBackground = true;
 		StartCoroutine (PlayVideo ());
+	}
+
+	void Update () {
+		if (Input.GetMouseButtonDown (0)) {
+			SceneManager.LoadScene (nextScene);
+		}
 	}
 
 	IEnumerator PlayVideo() {
@@ -74,6 +83,14 @@ public class VideoStreamScript : MonoBehaviour {
 
 		while (videoPlayer.isPlaying) {
 			//Debug.LogWarning("Video Time: " + Mathf.FloorToInt((float)videoPlayer.time));
+
+			if (EditorSceneManager.GetActiveScene().name == "CutScene") {
+				if (Mathf.FloorToInt ((float)videoPlayer.time) == 20 && eggBlinked == false) {
+					eggBlinked = true;
+					StartCoroutine (BlinkEgg ());
+				}
+			}
+
 			yield return null;
 		}
 
@@ -81,8 +98,17 @@ public class VideoStreamScript : MonoBehaviour {
 
 	}
 
-	void Update () {
-		
+	private IEnumerator BlinkEgg() {
+		ArduinoPersistent ap = (ArduinoPersistent)GameObject.Find ("ArduinoPersistent").GetComponent<ArduinoPersistent> ();
+		for (int i = 0; i < 3; i++) {
+			ap.SwitchOff ();
+			yield return new WaitForSeconds (0.5f);
+			ap.SetIntensity (i + 1);
+			ap.SetBrightness (20 + (i + 1) * 40);
+			yield return new WaitForSeconds (0.5f);
+		}
+		ap.SetIntensity (1);
+		ap.SetBrightness (20);
 	}
 
 }

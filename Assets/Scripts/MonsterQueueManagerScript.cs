@@ -24,8 +24,8 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 
 	float t = 0f;
 
-	float actualLightRange = 40f;
-	float newLightRange = 28f;
+	float actualLightRange = 28f;
+	float newLightRange = 40f;
 
 	float r = 0f;
 
@@ -65,8 +65,8 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 		string queueMonster;
 
 		//Ambient Light
-		ChangeLightColor (1f, 1f, 1f);
-		newLightRange = 28f;
+		ChangeLightColor (0.7f, 0.7f, 0.7f);
+		newLightRange = 40f;
 
 		//Pick next monster
 		if (monstersList.Count > 0) {
@@ -108,14 +108,14 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 				spr = Resources.Load ("Sprites/comodino", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 3);
 				stateName = "x";
-				egg.task = "TRASLA X";
+				egg.task = "X";
 				break;
 			case "Lampada":
 				spr_s = Resources.Load ("Sprites/lampada_s", typeof(Sprite)) as Sprite;
 				spr = Resources.Load ("Sprites/lampada", typeof(Sprite)) as Sprite;
 				egg.GetComponent<Animator> ().SetInteger ("state", 4);
 				stateName = "y";
-				egg.task = "TRASLA Y";
+				egg.task = "Y";
 				break;
 			case "Appendino":
 				spr_s = Resources.Load ("Sprites/appendino_s", typeof(Sprite)) as Sprite;
@@ -150,8 +150,8 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 		shadowMonster.Uncover ();
 		realMonster.Uncover ();
 
-		ChangeLightColor (0.7f, 0.7f, 0.7f);
-		newLightRange = 40f;
+		ChangeLightColor (1f, 1f, 1f);
+		newLightRange = 28f;
 	}
 
 	private void UpdateLight() {

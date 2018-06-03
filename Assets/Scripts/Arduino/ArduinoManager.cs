@@ -113,6 +113,10 @@ namespace Arduino
 			_connector.CloseConnector();
 		}
 
+		public void CloseConnection() {
+			_connector.CloseConnector();
+		}
+
 		public void SetLightFlag(bool flag) {
 			_connector.SetLightFlag (flag);
 		}

@@ -21,6 +21,10 @@ public class StartMenuScript : MonoBehaviour {
 		StartCoroutine (PlayVideo ());
 	}
 
+	void Update() {
+
+	}
+
 	IEnumerator PlayVideo() {
 
 		//Add VideoPlayer to the GameObject
@@ -77,10 +81,6 @@ public class StartMenuScript : MonoBehaviour {
 			//Debug.LogWarning("Video Time: " + Mathf.FloorToInt((float)videoPlayer.time));
 			yield return null;
 		}
-
-	}
-
-	void Update () {
 
 	}
 

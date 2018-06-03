@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f9fba59a1aa034d8bf35c02fd1914d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: TurnOffLightScene
+  nextScene: StartMenuScene
   image: {fileID: 373687701}
   videoToPlay: {fileID: 32900000, guid: 422b28a25783e944fb11064328776283, type: 3}
 --- !u!114 &373687701

@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Threading;
 using System.Collections;
 using System.IO.Ports;
+using System.Linq;
 
 namespace Arduino
 {
@@ -27,6 +28,7 @@ namespace Arduino
 
 			_thread = new Thread (ThreadLoop);
 			_thread.Start ();
+
 		}
 
 		public void StopThread ()
@@ -52,8 +54,16 @@ namespace Arduino
 
 		private void WriteToSerial(string command)
 		{
-			_stream.Write(command + ";");
-			_stream.BaseStream.Flush();
+			if (_stream.IsOpen) {
+				try {
+					//Debug.Log(command);
+					_stream.Write (command + ";");
+				} catch (Exception e) {
+					Debug.Log (e.ToString ());
+				}
+				_stream.BaseStream.Flush ();
+			} else
+				Debug.Log ("Stream closed");
 		}
 
 		private string ReadFromSerial(int timeout = 0)
@@ -82,10 +92,25 @@ namespace Arduino
 			return (string)_inputQueue.Dequeue ();
 		}
 
+		void OnDestroy() {
+			_looping = false;
+		}
+
 		private void ThreadLoop ()
 		{
+
+			string[] ports = SerialPort.GetPortNames();
+
+			//Debug.Log("The following serial ports were found:");
+
+			// Display each port name to the console.
+			foreach(string port in ports)
+			{
+				//Debug.Log(port);
+			}
+
 			_stream = new SerialPort (_portName, _baudRate);
-			_stream.ReadTimeout = 50;
+			_stream.ReadTimeout = 10;
 			try {_stream.Open ();}catch (Exception e){
 				Debug.Log (e.ToString());
 			}
@@ -101,8 +126,12 @@ namespace Arduino
 				if (result != null)
 					_inputQueue.Enqueue (result);
 			}
-			_stream.Close ();
-			_thread.Abort ();
+				
+			if (_stream.IsOpen) {
+				_stream.Close ();
+				Debug.Log ("Stream closed");
+			} else
+				Debug.Log ("Stream was not open");
 		}
 
 

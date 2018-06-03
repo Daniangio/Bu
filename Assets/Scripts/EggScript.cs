@@ -43,8 +43,7 @@ public class EggScript : MonoBehaviour {
 	int arduinoCounter=0;
 
 	//Arduino Led Bar
-	ArduinoManager am;
-	bool ok = false;
+	private ArduinoPersistent ap;
 
 	//Task oriented variables
 	int MAX_INTENSITY = 4;
@@ -56,13 +55,12 @@ public class EggScript : MonoBehaviour {
 
 	void Start () {
 
+		ap = (ArduinoPersistent)GameObject.Find ("ArduinoPersistent").GetComponent<ArduinoPersistent>();
+
 		sprite = gameObject.GetComponent<SpriteRenderer> ().sprite;
 		//particlesEmitter = gameObject.GetComponent<ParticlesAttractorScript> ();
 		worldScreenHeight = Camera.main.orthographicSize * 2f;
 		worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
-
-		am = new ArduinoManager ("\\\\.\\COM27");
-		ok = true;
 
 		x_angle = new float[arduinoBufferSize];
 		y_angle = new float[arduinoBufferSize];
@@ -71,7 +69,6 @@ public class EggScript : MonoBehaviour {
 		y_acc = new float[arduinoBufferSize];
 		z_acc = new float[arduinoBufferSize];
 
-		am.StartBar ();
 		LightUpLedBar ();
 
 		transform.localScale = new Vector3 (100, 100, 1);
@@ -96,7 +93,11 @@ public class EggScript : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown (KeyCode.Q)) {
-			am.SwitchOff ();
+			ap.CloseConnection ();
+		}
+
+		if (Input.GetKeyDown (KeyCode.W)) {
+			Start ();
 		}
 
 		if (Input.GetMouseButtonDown (0)) {
@@ -121,8 +122,7 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void ReadFromArduino() {
-		if (ok) {
-			string response = am.ReadFromArduino ();
+			string response = ap.ReadFromArduino ();
 			if (response != null) {
 				int type = 0;
 				try {type = int.Parse (response.Split ("," [0]) [0]);} catch {Debug.Log(response);}
@@ -143,7 +143,6 @@ public class EggScript : MonoBehaviour {
 					break;
 				}
 			}
-		}
 	}
 
 	private void NormalizeAcceleration() {
@@ -185,7 +184,7 @@ public class EggScript : MonoBehaviour {
 			AccLeft ();
 
 		//CHECK UP ACCELERATION (Y ACC POSITIVE)
-		accSensitivity = 0.1f;
+		accSensitivity = 0.2f;
 		incrementing = true;
 		for (int i = 0; i < arduinoBufferSize; i++) {
 			if (y_acc [i] < accSensitivity) {
@@ -197,7 +196,7 @@ public class EggScript : MonoBehaviour {
 			AccUp ();
 
 		//CHECK DOWN ACCELERATION (Y ACC NEGATIVE)
-		accSensitivity = 0.1f;
+		accSensitivity = 0.2f;
 		incrementing = true;
 		for (int i = 0; i < arduinoBufferSize; i++) {
 			if (y_acc [i] > -accSensitivity) {
@@ -208,32 +207,25 @@ public class EggScript : MonoBehaviour {
 		if (incrementing)
 			AccDown ();
 
-		//CHECK TOP ACCELERATION (X ACC POSITIVE)
-		accSensitivity = 0.1f + 0.95f; // 0.95f is the default gravity force on the Z axis
-		incrementing = true;
-		for (int i = 0; i < arduinoBufferSize; i++) {
-			if (z_acc [i] < accSensitivity) {
-				incrementing = false;
-				break;
-			}
-		}
+		//CHECK TOP ACCELERATION (Z ACC POSITIVE)
+		accSensitivity = 0.1f;
+		incrementing = false;
+		if (z_acc [3] > z_acc [0] + accSensitivity || z_acc [4] > z_acc [0] + accSensitivity)
+				incrementing = true;
 		if (incrementing)
 			AccTop ();
 
-		//CHECK BOTTOM ACCELERATION (X ACC NEGATIVE)
-		accSensitivity = -0.1f + 0.95f;
-		incrementing = true;
-		for (int i = 0; i < arduinoBufferSize; i++) {
-			if (z_acc [i] > accSensitivity) {
-				incrementing = false;
-				break;
-			}
+		//CHECK BOTTOM ACCELERATION (Z ACC NEGATIVE)
+		accSensitivity = 0.1f;
+		incrementing = false;
+			if (z_acc [3] < z_acc [0] - accSensitivity || z_acc [4] < z_acc [0] - accSensitivity) {
+			incrementing = true;
 		}
 		if (incrementing)
 			AccBottom ();
 		
 		//CHECK RIGHT BENDING (X ANGLE INCREASES)
-		float angleSensitivity = 1.0f;
+		float angleSensitivity = 1.5f;
 		incrementing = true;
 		for (int i = 1; i < arduinoBufferSize; i++) {
 			if (x_angle [i] < x_angle [i - 1] + angleSensitivity) {
@@ -245,7 +237,7 @@ public class EggScript : MonoBehaviour {
 			BendRight ();
 
 		//CHECK LEFT BENDING (X ANGLE DECREASES)
-		angleSensitivity = 1.0f;
+		angleSensitivity = 1.5f;
 		bool decrementing = true;
 		for (int i = 1; i < arduinoBufferSize; i++) {
 			if (x_angle [i] > x_angle [i - 1] - angleSensitivity) {
@@ -257,7 +249,7 @@ public class EggScript : MonoBehaviour {
 			BendLeft ();
 
 		//CHECK DOWN BENDING (Y ANGLE INCREASES)
-		angleSensitivity = 1.0f;
+		angleSensitivity = 1.5f;
 		incrementing = true;
 		for (int i = 1; i < arduinoBufferSize; i++) {
 			if (y_angle [i] < y_angle [i - 1] + angleSensitivity) {
@@ -269,7 +261,7 @@ public class EggScript : MonoBehaviour {
 			BendDown ();
 
 		//CHECK UP BENDING (Y ANGLE DECREASES)
-		angleSensitivity = 1.0f;
+		angleSensitivity = 1.5f;
 		decrementing = true;
 		for (int i = 1; i < arduinoBufferSize; i++) {
 			if (y_angle [i] > y_angle [i - 1] - angleSensitivity) {
@@ -305,20 +297,20 @@ public class EggScript : MonoBehaviour {
 			TurnClockWise ();
 
 		//CHECK SHAKING
-		float x_sensitivity = 0.1f,  y_sensitivity = 0.01f,  z_sensitivity = 0.06f;
-		int positive_x=0, positive_y=0, positive_z=0;
+		float x_sensitivity = 0.1f,  y_sensitivity = 0.01f;  //z_sensitivity = 0.06f;
+		int positive_x=0, positive_y=0; //positive_z=0;
 		for (int i = 0; i < arduinoBufferSize; i++) {
 			if (x_acc[i] > x_sensitivity)
 				positive_x += 1;
 			if (y_acc[i] > y_sensitivity)
 				positive_y += 1;
-			if (z_acc[i] - 0.95f > z_sensitivity)
-				positive_z += 1;
+			/*if (z_acc[i] - 0.95f > z_sensitivity)
+				positive_z += 1;*/
 		}
 		//Debug.Log (positive_x + "    " + positive_y + "    " + positive_z);
 		if (positive_x > 1 && positive_x < 5 &&
-		    positive_y > 1 && positive_y < 5 &&
-		    positive_z > 1 && positive_z < 5)
+			positive_y > 1 && positive_y < 5) //&&
+		    //positive_z > 1 && positive_z < 5)
 			Shake ();
 	}
 
@@ -338,8 +330,6 @@ public class EggScript : MonoBehaviour {
 	}*/
 
 	private void AccRight() {
-		audioSource.clip = accXAudio;
-		audioSource.Play ();
 		Debug.Log ("MOVE RIGHT");
 		if (task == "X" && mustAccRight) {
 			mustAccRight = false;
@@ -347,18 +337,16 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void AccLeft() {
-		audioSource.clip = accXAudio;
-		audioSource.Play ();
 		Debug.Log ("MOVE LEFT");
 		if (task == "X" && !mustAccRight) {
 			mustAccRight = true;
+			audioSource.clip = accXAudio;
+			audioSource.Play ();
 			FillCompletionBar ();
 		}
 	}
 
 	private void AccTop() {
-		audioSource.clip = accYAudio;
-		audioSource.Play ();
 		Debug.Log ("MOVE TOP");
 		if (task == "Y" && mustAccTop) {
 			mustAccTop = false;
@@ -366,18 +354,16 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void AccBottom() {
-		audioSource.clip = accYAudio;
-		audioSource.Play ();
 		Debug.Log ("MOVE BOTTOM");
 		if (task == "Y" && !mustAccTop) {
 			mustAccTop = true;
+			audioSource.clip = accYAudio;
+			audioSource.Play ();
 			FillCompletionBar ();
 		}
 	}
 
 	private void AccUp() {
-		audioSource.clip = accXAudio;
-		audioSource.Play ();
 		Debug.Log ("MOVE UP");
 		if (task == "X" && mustAccRight) {
 			mustAccRight = false;
@@ -385,18 +371,16 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void AccDown() {
-		audioSource.clip = accXAudio;
-		audioSource.Play ();
 		Debug.Log ("MOVE DOWN");
 		if (task == "X" && !mustAccRight) {
 			mustAccRight = true;
+			audioSource.clip = accXAudio;
+			audioSource.Play ();
 			FillCompletionBar ();
 		}
 	}
 
 	private void BendRight() {
-		audioSource.clip = bendAudio;
-		audioSource.Play ();
 		Debug.Log ("BEND RIGHT");
 		if (task == "RIBALTA" && mustBendRight) {
 			mustBendRight = false;
@@ -407,6 +391,8 @@ public class EggScript : MonoBehaviour {
 					ruotaLevel += 1;
 				else {
 					ruotaLevel = 0;
+					audioSource.clip = turnAudio;
+					audioSource.Play ();
 					FillCompletionBar ();
 				}
 			} else {
@@ -417,11 +403,11 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void BendLeft() {
-		audioSource.clip = bendAudio;
-		audioSource.Play ();
 		Debug.Log ("BEND LEFT");
 		if (task == "RIBALTA" && !mustBendRight) {
 			mustBendRight = true;
+			audioSource.clip = bendAudio;
+			audioSource.Play ();
 			FillCompletionBar ();
 		}
 		if (task == "RUOTA") {
@@ -430,6 +416,8 @@ public class EggScript : MonoBehaviour {
 					ruotaLevel += 1;
 				else {
 					ruotaLevel = 0;
+					audioSource.clip = turnAudio;
+					audioSource.Play ();
 					FillCompletionBar ();
 				}
 			} else {
@@ -440,12 +428,9 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void BendUp() {
-		audioSource.clip = bendAudio;
-		audioSource.Play ();
 		Debug.Log ("BEND UP");
 		if (task == "RIBALTA" && mustBendRight) {
 			mustBendRight = false;
-			FillCompletionBar ();
 		}
 		if (task == "RUOTA") {
 			if (ruotaDir == "Up") {
@@ -453,6 +438,8 @@ public class EggScript : MonoBehaviour {
 					ruotaLevel += 1;
 				else {
 					ruotaLevel = 0;
+					audioSource.clip = turnAudio;
+					audioSource.Play ();
 					FillCompletionBar ();
 				}
 			} else {
@@ -463,11 +450,11 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void BendDown() {
-		audioSource.clip = bendAudio;
-		audioSource.Play ();
 		Debug.Log ("BEND DOWN");
 		if (task == "RIBALTA" && !mustBendRight) {
 			mustBendRight = true;
+			audioSource.clip = bendAudio;
+			audioSource.Play ();
 			FillCompletionBar ();
 		}
 		if (task == "RUOTA") {
@@ -476,6 +463,8 @@ public class EggScript : MonoBehaviour {
 					ruotaLevel += 1;
 				else {
 					ruotaLevel = 0;
+					audioSource.clip = turnAudio;
+					audioSource.Play ();
 					FillCompletionBar ();
 				}
 			} else {
@@ -486,23 +475,20 @@ public class EggScript : MonoBehaviour {
 	}
 
 	private void TurnCounterClockWise() {
-		audioSource.clip = turnAudio;
-		audioSource.Play ();
 		Debug.Log ("TURN COUNTERCLOCKWISE");
 	}
 
 	private void TurnClockWise() {
-		audioSource.clip = turnAudio;
-		audioSource.Play ();
 		Debug.Log ("TURN CLOCKWISE");
 	}
 
 	private void Shake() {
-		audioSource.clip = shakeAudio;
-		audioSource.Play ();
 		Debug.Log ("SHAKE");
-		if (task == "SHAKE")
+		if (task == "SHAKE") {
+			audioSource.clip = shakeAudio;
+			audioSource.Play ();
 			FillCompletionBar ();
+		}
 	}
 
 	private void FillCompletionBar () {
@@ -521,6 +507,7 @@ public class EggScript : MonoBehaviour {
 
 				} else {
 					buio.PlayEyesAnimation ("felice");
+					task = "NONE";
 					ShowMonster ();
 				}
 				break;
@@ -573,33 +560,34 @@ public class EggScript : MonoBehaviour {
 	//Methods for Arduino
 
 	public void WriteOnArduino(string command) {
-		am.WriteOnArduino (command);
+		ap.WriteOnArduino (command);
 	}
 
 	void OnDestroy ()
 	{
-		if (am != null) {
-			am.SwitchOff ();
-			am.Destroy ();
-		}
+		/*if (ap != null) {
+			ap.SwitchOff ();
+			ap.Destroy ();
+		}*/
 	}
 
 	void OnApplicationQuit ()
 	{
-		if (am != null) {
-			am.SwitchOff ();
-			am.Destroy ();
+		if (ap != null) {
+			ap.SwitchOff ();
+			ap.Destroy ();
 		}
 	}
 
 	void LightUpLedBar() {
-		am.SetIntensity (intensity);
-		am.SetBrightness (brightness);
-		am.SetColor (color);
+		ap.SwitchOff ();
+		ap.SetIntensity (intensity);
+		ap.SetBrightness (brightness);
+		ap.SetColor (color);
 	}
 
 	public void ShowEffect(int effectNumber, int millis = 10000) {
-		am.ShowEffect (2, effectNumber, millis);
+		ap.ShowEffect (2, effectNumber, millis);
 	}
 
 }

@@ -9,7 +9,7 @@ namespace Arduino
 	{
 		private string _portName;
 		private int _baudRate = 115200;
-		private SerialSender _sender;
+		private SerialSender _sender = null;
 
 		public ArduinoConnector (string portName)
 		{
@@ -18,7 +18,8 @@ namespace Arduino
 
 		public void Setup()
 		{
-			_sender = new SerialSender ();
+			if (_sender == null)
+				_sender = new SerialSender ();
 			_sender.StartThread (_portName, _baudRate);
 
 		}

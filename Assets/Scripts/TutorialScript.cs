@@ -11,6 +11,7 @@ public class TutorialScript : MonoBehaviour {
 	public RawImage image;
 
 	private VideoClip videoToPlay;
+	private VideoClip tutorialPt2, tutorialPt3;
 
 	private VideoPlayer videoPlayer;
 	private VideoSource videoSource;
@@ -21,6 +22,8 @@ public class TutorialScript : MonoBehaviour {
 	void Start () {
 		Application.runInBackground = true;
 		videoToPlay = (VideoClip)Resources.Load ("Videos/tutorial_1");
+		tutorialPt2 = (VideoClip)Resources.Load ("Videos/tutorial_2");
+		tutorialPt3 = (VideoClip)Resources.Load ("Videos/tutorial_3");
 		StartCoroutine (PlayVideo ());
 	}
 
@@ -83,13 +86,13 @@ public class TutorialScript : MonoBehaviour {
 			switch (sequence) {
 			case 0:
 				sequence += 1;
-				videoToPlay = (VideoClip)Resources.Load ("Videos/tutorial_2");
+				videoToPlay = tutorialPt2;
 				StopAllCoroutines ();
 				StartCoroutine (PlayVideo ());
 				break;
 			case 1:
 				sequence += 1;
-				videoToPlay = (VideoClip)Resources.Load ("Videos/tutorial_3");
+				videoToPlay = tutorialPt3;
 				StopAllCoroutines ();
 				StartCoroutine (PlayVideo ());
 				break;

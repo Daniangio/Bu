@@ -6,19 +6,19 @@ using Arduino;
 public class ArduinoTest : MonoBehaviour {
 
 	ArduinoManager am;
-	bool ok = false;
+	//bool ok = false;
 
 	// Use this for initialization
 	void Start () {
 
-		am = new ArduinoManager ("\\\\.\\COM26");
-		ok = true;
+		//am = new ArduinoManager ("\\\\.\\COM27");
+		//ok = true;
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (ok) {
+		/*if (ok) {
 			string response = am.ReadFromArduino ();
 			if (response != null) {
 				int type = int.Parse (response.Split ("," [0]) [0]);
@@ -35,10 +35,10 @@ public class ArduinoTest : MonoBehaviour {
 					break;
 				}
 			}
-		}
+		}*/
 
 		if (Input.GetMouseButtonDown (0)) {
-			am.SetLightFlag (true);
+			//am.SetLightFlag (true);
 			Manager.lightFlag = true;
 		}
 	}
