@@ -15,7 +15,7 @@ public class ArduinoPersistent : MonoBehaviour {
 			DontDestroyOnLoad (gameObject);
 			_persistent = this;
 
-			_am = new ArduinoManager ("\\\\.\\COM27");
+			_am = new ArduinoManager ("\\\\.\\COM26");
 			_am.StartBar ();
 			_am.SetIntensity (1);
 			_am.SetBrightness (20);

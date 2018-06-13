@@ -85,7 +85,7 @@ public class VideoStreamScript : MonoBehaviour {
 			//Debug.LogWarning("Video Time: " + Mathf.FloorToInt((float)videoPlayer.time));
 
 			if (EditorSceneManager.GetActiveScene().name == "CutScene") {
-				if (Mathf.FloorToInt ((float)videoPlayer.time) == 20 && eggBlinked == false) {
+				if (Mathf.FloorToInt ((float)videoPlayer.time) == 19 && eggBlinked == false) {
 					eggBlinked = true;
 					StartCoroutine (BlinkEgg ());
 				}
@@ -102,13 +102,13 @@ public class VideoStreamScript : MonoBehaviour {
 		ArduinoPersistent ap = (ArduinoPersistent)GameObject.Find ("ArduinoPersistent").GetComponent<ArduinoPersistent> ();
 		for (int i = 0; i < 3; i++) {
 			ap.SwitchOff ();
-			yield return new WaitForSeconds (0.5f);
+			yield return new WaitForSeconds (0.3f);
 			ap.SetIntensity (i + 1);
 			ap.SetBrightness (20 + (i + 1) * 40);
-			yield return new WaitForSeconds (0.5f);
+			yield return new WaitForSeconds (0.3f);
 		}
-		ap.SetIntensity (1);
-		ap.SetBrightness (20);
+		ap.SetIntensity (3);
+		ap.SetBrightness (200);
 	}
 
 }

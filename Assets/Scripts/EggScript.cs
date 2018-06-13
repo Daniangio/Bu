@@ -50,7 +50,7 @@ public class EggScript : MonoBehaviour {
 	int MAX_BRIGHTNESS = 200;
 
 	int intensity = 1;
-	int brightness = 20;
+	int brightness = 100;
 	string color = "ffffff";
 
 	void Start () {
@@ -161,49 +161,25 @@ public class EggScript : MonoBehaviour {
 
 		//CHECK RIGHT ACCELERATION (X ACC POSITIVE)
 		float accSensitivity = 0.1f;
-		bool incrementing = true;
-		for (int i = 0; i < arduinoBufferSize; i++) {
-			if (x_acc [i] < accSensitivity) {
-				incrementing = false;
-				break;
-			}
-		}
+		bool incrementing = (x_acc [3] > z_acc [0] + accSensitivity || x_acc [4] > x_acc [0] + accSensitivity);
 		if (incrementing)
 			AccRight ();
 
 		//CHECK LEFT ACCELERATION (X ACC NEGATIVE)
 		accSensitivity = 0.1f;
-		incrementing = true;
-		for (int i = 0; i < arduinoBufferSize; i++) {
-			if (x_acc [i] > -accSensitivity) {
-				incrementing = false;
-				break;
-			}
-		}
+		incrementing = (x_acc [3] < z_acc [0] - accSensitivity || x_acc [4] < x_acc [0] - accSensitivity);
 		if (incrementing)
 			AccLeft ();
 
 		//CHECK UP ACCELERATION (Y ACC POSITIVE)
-		accSensitivity = 0.2f;
-		incrementing = true;
-		for (int i = 0; i < arduinoBufferSize; i++) {
-			if (y_acc [i] < accSensitivity) {
-				incrementing = false;
-				break;
-			}
-		}
+		accSensitivity = 0.1f;
+		incrementing = (y_acc [3] > y_acc [0] + accSensitivity || y_acc [4] > y_acc [0] + accSensitivity);
 		if (incrementing)
 			AccUp ();
 
 		//CHECK DOWN ACCELERATION (Y ACC NEGATIVE)
-		accSensitivity = 0.2f;
-		incrementing = true;
-		for (int i = 0; i < arduinoBufferSize; i++) {
-			if (y_acc [i] > -accSensitivity) {
-				incrementing = false;
-				break;
-			}
-		}
+		accSensitivity = 0.1f;
+		incrementing = (y_acc [3] < y_acc [0] - accSensitivity || y_acc [4] < y_acc [0] - accSensitivity);
 		if (incrementing)
 			AccDown ();
 
@@ -500,14 +476,22 @@ public class EggScript : MonoBehaviour {
 					intensity += 1;
 				
 				if (brightness < MAX_BRIGHTNESS) {
-					brightness += 90;
+					brightness += 30;
+					if (brightness > MAX_BRIGHTNESS)
+						brightness = MAX_BRIGHTNESS;
 					LightUpLedBar ();
 					buio.PlayEyesAnimation ("si");
-					StartCoroutine(WaitBeforeContinue(1.5f));
+					StartCoroutine(WaitBeforeContinue(0.8f));
 
 				} else {
 					buio.PlayEyesAnimation ("felice");
 					task = "NONE";
+					GetComponent<Animator> ().SetInteger ("state", 5);
+					GetComponent<Animator> ().Play("fermo");
+					intensity = 1;
+					brightness = 100;
+					color = "ffffff";
+					LightUpLedBar ();
 					ShowMonster ();
 				}
 				break;
@@ -525,12 +509,6 @@ public class EggScript : MonoBehaviour {
 		buio.PlayEyesAnimation ("felice");
 
 		monsterQueueManager.ShowMonster ();
-
-		//Arduino
-		intensity = 1;
-		brightness = 20;
-		color = "ffffff";
-		LightUpLedBar ();
 
 		switch(Manager.monsterName) {
 
@@ -579,8 +557,7 @@ public class EggScript : MonoBehaviour {
 		}
 	}
 
-	void LightUpLedBar() {
-		ap.SwitchOff ();
+	public void LightUpLedBar() {
 		ap.SetIntensity (intensity);
 		ap.SetBrightness (brightness);
 		ap.SetColor (color);
