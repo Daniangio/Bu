@@ -399,7 +399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: TutorialScene
   image: {fileID: 1795877008}
-  videoToPlay: {fileID: 32900000, guid: 5e5082d248878ac42ae3cd2c6943a3db, type: 3}
+  videoToPlay: {fileID: 32900000, guid: ca96318dbaf74734ab622f98ddb3e6eb, type: 3}
 --- !u!114 &1795877008
 MonoBehaviour:
   m_ObjectHideFlags: 0
