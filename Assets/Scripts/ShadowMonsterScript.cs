@@ -33,7 +33,7 @@ public class ShadowMonsterScript : MonoBehaviour {
 
 			Color tmp = this.GetComponent<SpriteRenderer>().color;
 			if (uncovered && blendingValue > 0f) {
-				gameObject.GetComponent<SpriteRenderer> ().material.SetColor("_Color", Color.red);
+				gameObject.GetComponent<SpriteRenderer> ().material.SetColor("_Color", new Color(34,18,55));
 			}
 			tmp.a = blendingValue;
 			this.GetComponent<SpriteRenderer>().color = tmp;

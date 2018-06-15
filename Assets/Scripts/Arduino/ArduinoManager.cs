@@ -54,6 +54,11 @@ namespace Arduino
 			_connector.StartBar();
 		}
 
+		public void Vibrate()
+		{
+			_connector.Vibrate ();
+		}
+
 		/// <summary>
 		/// Sets the intensity of the light (the number of lit leds).
 		/// </summary>

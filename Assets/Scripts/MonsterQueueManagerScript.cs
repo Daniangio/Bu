@@ -169,7 +169,10 @@ public class MonsterQueueManagerScript : MonoBehaviour {
 		}
 
 		if (actualLightRange != newLightRange) {
-			r += Time.deltaTime / 5;
+			if (actualLightRange > newLightRange)
+				r += Time.deltaTime / 20;
+			else
+				r += Time.deltaTime / 5;
 			actualLightRange = Mathf.Lerp (actualLightRange, newLightRange, Mathf.SmoothStep (0, 1, r));
 			if (actualLightRange == newLightRange) {
 				r = 0f;

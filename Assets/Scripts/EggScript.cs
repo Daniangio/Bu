@@ -22,6 +22,7 @@ public class EggScript : MonoBehaviour {
 	public AudioClip accYAudio;
 	public AudioClip bendAudio;
 	public AudioClip turnAudio;
+	public AudioClip revelationAudio;
 
 	//TASK VARIABLES
 	public string task = "";
@@ -467,7 +468,7 @@ public class EggScript : MonoBehaviour {
 		}
 	}
 
-	private void FillCompletionBar () {
+	public void FillCompletionBar () {
 		if (!waitBeforeContinue) {
 			waitBeforeContinue = true;
 			switch (Manager.monsterName) {
@@ -476,7 +477,7 @@ public class EggScript : MonoBehaviour {
 					intensity += 1;
 				
 				if (brightness < MAX_BRIGHTNESS) {
-					brightness += 30;
+					brightness += 50;
 					if (brightness > MAX_BRIGHTNESS)
 						brightness = MAX_BRIGHTNESS;
 					LightUpLedBar ();
@@ -484,6 +485,9 @@ public class EggScript : MonoBehaviour {
 					StartCoroutine(WaitBeforeContinue(0.8f));
 
 				} else {
+					ap.Vibrate ();
+					audioSource.clip = revelationAudio;
+					audioSource.Play ();
 					buio.PlayEyesAnimation ("felice");
 					task = "NONE";
 					GetComponent<Animator> ().SetInteger ("state", 5);

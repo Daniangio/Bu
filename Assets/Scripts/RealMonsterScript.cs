@@ -27,6 +27,7 @@ public class RealMonsterScript : MonoBehaviour {
 
 			if (uncovered && blendingValue >= 1f) {
 				StartCoroutine(StartGreetingAnimation());
+				uncovered = false;
 			} else if (uncovered && blendingValue < 1f) {
 				blendingValue += blendSpeed * Time.deltaTime;
 			}

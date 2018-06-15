@@ -54,6 +54,10 @@ public class ArduinoPersistent : MonoBehaviour {
 		_am.SetBrightness(brightness);
 	}
 
+	public void Vibrate() {
+		_am.Vibrate ();
+	}
+
 	public void ShowEffect(int barPortion, int effectNumber, int duration) {
 		_am.ShowEffect(barPortion, effectNumber, duration);
 	}

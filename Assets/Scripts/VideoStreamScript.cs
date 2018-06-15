@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
-using UnityEditor.SceneManagement;
 
 public class VideoStreamScript : MonoBehaviour {
 
@@ -84,7 +83,7 @@ public class VideoStreamScript : MonoBehaviour {
 		while (videoPlayer.isPlaying) {
 			//Debug.LogWarning("Video Time: " + Mathf.FloorToInt((float)videoPlayer.time));
 
-			if (EditorSceneManager.GetActiveScene().name == "CutScene") {
+			if (SceneManager.GetActiveScene().name == "CutScene") {
 				if (Mathf.FloorToInt ((float)videoPlayer.time) == 19 && eggBlinked == false) {
 					eggBlinked = true;
 					StartCoroutine (BlinkEgg ());

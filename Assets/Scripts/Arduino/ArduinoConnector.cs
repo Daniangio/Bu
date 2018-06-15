@@ -105,6 +105,12 @@ namespace Arduino
 			_sender.SendToArduino (command);
 		}
 
+		public void Vibrate()
+		{
+			string command = 14.ToString();
+			_sender.SendToArduino (command);
+		}
+
 		public void SetBrightness(int brightness)
 		{
 			if (brightness < 1 || brightness > 200)

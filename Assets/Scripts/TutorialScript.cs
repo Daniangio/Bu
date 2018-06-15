@@ -82,26 +82,30 @@ public class TutorialScript : MonoBehaviour {
 
 	void Update () {
 		
-		if (Input.GetMouseButtonDown (0)) {
-			switch (sequence) {
-			case 0:
-				sequence += 1;
-				videoToPlay = tutorialPt2;
-				StopAllCoroutines ();
-				StartCoroutine (PlayVideo ());
-				break;
-			case 1:
-				sequence += 1;
-				videoToPlay = tutorialPt3;
-				StopAllCoroutines ();
-				StartCoroutine (PlayVideo ());
-				break;
-			case 2:
-				SceneManager.LoadScene (nextScene);
-				break;
-			default:
-				break;
-			}
+		/*if (Input.GetMouseButtonDown (0)) {
+			GoAhead ();
+		}*/
+	}
+
+	public void GoAhead() {
+		switch (sequence) {
+		case 0:
+			sequence += 1;
+			videoToPlay = tutorialPt2;
+			StopAllCoroutines ();
+			StartCoroutine (PlayVideo ());
+			break;
+		case 1:
+			sequence += 1;
+			videoToPlay = tutorialPt3;
+			StopAllCoroutines ();
+			StartCoroutine (PlayVideo ());
+			break;
+		case 2:
+			SceneManager.LoadScene (nextScene);
+			break;
+		default:
+			break;
 		}
 	}
 
