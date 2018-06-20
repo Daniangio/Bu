@@ -31,4 +31,9 @@ public class OpenPanelOnClick : MonoBehaviour {
 	public void ChangeScene(string sceneName) {
 		SceneManager.LoadScene (sceneName);
 	}
+
+	void Update() {
+		if (Input.GetKeyDown (KeyCode.X))
+			ChangeScene ("TurnOffLightScene");
+	}
 }

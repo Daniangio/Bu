@@ -82,9 +82,9 @@ public class TutorialScript : MonoBehaviour {
 
 	void Update () {
 		
-		/*if (Input.GetMouseButtonDown (0)) {
+		if (Input.GetKeyDown(KeyCode.X)) {
 			GoAhead ();
-		}*/
+		}
 	}
 
 	public void GoAhead() {

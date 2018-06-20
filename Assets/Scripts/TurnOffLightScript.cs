@@ -83,8 +83,9 @@ public class TurnOffLightScript : MonoBehaviour {
 
 	}
 
-	void Update () {
-
+	void Update() {
+		if (Input.GetKeyDown (KeyCode.X))
+			SceneManager.LoadScene ("CutScene");
 	}
 
 }

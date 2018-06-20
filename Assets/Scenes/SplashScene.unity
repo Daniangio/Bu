@@ -162,7 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: StartMenuScene
   image: {fileID: 373687701}
-  videoToPlay: {fileID: 32900000, guid: 422b28a25783e944fb11064328776283, type: 3}
+  videoToPlay: {fileID: 32900000, guid: 958652a402f95124cbf22403afd7e312, type: 3}
 --- !u!114 &373687701
 MonoBehaviour:
   m_ObjectHideFlags: 0
